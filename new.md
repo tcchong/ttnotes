@@ -1,6 +1,6 @@
 # Overview
 
-* A Javascript runtime build on Chrome's V8 Javascript engine
+* A JavaScript runtime build on Chrome's V8 JavaScript engine
 * single thread
 * event-driven
 * non-blocking I/O
