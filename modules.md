@@ -34,8 +34,8 @@
 
 ### Utilities
 - [moment](https://github.com/moment/moment): A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
-underscore
-aws-sdk
+- [underscore](https://github.com/jashkenas/underscore)
+- [aws-sdk](https://github.com/aws/aws-sdk-js): The officail AWS SDK for JavaScript.
 node-gcm
 pbkdf2-sha256
 
