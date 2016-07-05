@@ -5,7 +5,6 @@
 - [koa](https://github.com/koajs/koa)
 - [restify](https://github.com/restify/node-restify)
 
-
 ### Middleware
 - [body-parser](https://github.com/expressjs/body-parser)
 - [cookie-parser](https://github.com/expressjs/cookie-parser)
@@ -39,12 +38,18 @@
 - [node-gcm](https://github.com/ToothlessGear/node-gcm): Wrapper library port to send data to Android devices via Google Cloud Messaging.
 - [pbkdf2-sha256](https://github.com/cryptocoinjs/pbkdf2-sha256): A JavaScript implementation of PBKDF2 using the SHA256 HMAC
 
-mocha
-should
+### Test framework
+- [mocha](https://github.com/mochajs/mocha)
+
+### Test assertion
+- [should](https://github.com/tj/should.js/)
+- [chai](https://github.com/chaijs/chai)
 
 heapdump
 
-mongodb
-mysql
-mongoose
-io-redis
+
+### Database client
+- [mongodb](https://github.com/mongodb/node-mongodb-native)
+- [mongoose](https://github.com/Automattic/mongoose)
+- [mysql](https://github.com/mongodb/node-mongodb-native)
+- [io-redis](https://github.com/luin/ioredis)
