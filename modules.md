@@ -36,8 +36,8 @@
 - [moment](https://github.com/moment/moment): A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
 - [underscore](https://github.com/jashkenas/underscore)
 - [aws-sdk](https://github.com/aws/aws-sdk-js): The officail AWS SDK for JavaScript.
-node-gcm
-pbkdf2-sha256
+- [node-gcm](https://github.com/ToothlessGear/node-gcm): Wrapper library port to send data to Android devices via Google Cloud Messaging.
+- [pbkdf2-sha256](https://github.com/cryptocoinjs/pbkdf2-sha256): A JavaScript implementation of PBKDF2 using the SHA256 HMAC
 
 mocha
 should
