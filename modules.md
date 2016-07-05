@@ -29,8 +29,6 @@
 - [log4js](https://github.com/nomiddlename/log4js-node)
 - [winston](https://github.com/winstonjs/winston)
 
-- [debug](https://github.com/visionmedia/debug)
-
 ### Utilities
 - [moment](https://github.com/moment/moment): A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
 - [underscore](https://github.com/jashkenas/underscore)
@@ -45,11 +43,12 @@
 - [should](https://github.com/tj/should.js/)
 - [chai](https://github.com/chaijs/chai)
 
-heapdump
-
-
 ### Database client
 - [mongodb](https://github.com/mongodb/node-mongodb-native)
 - [mongoose](https://github.com/Automattic/mongoose)
 - [mysql](https://github.com/mongodb/node-mongodb-native)
 - [io-redis](https://github.com/luin/ioredis)
+
+### Debug
+- [heapdump](https://github.com/bnoordhuis/node-heapdump)
+- [debug](https://github.com/visionmedia/debug)
