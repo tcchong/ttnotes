@@ -6,4 +6,5 @@
        * [Overview](new.md)
        * [Modules](modules.md)
        * [NPM](npm.md)
+   * Design pattern
 
