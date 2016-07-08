@@ -9,5 +9,5 @@
    * Design patterns
        * [Revealing module](revealing_module.md)
    * React.js
-       * Reference
+       * Bookmarks
 
