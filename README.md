@@ -1,4 +1,4 @@
-GitBook Example
+Note
 =======
 
-Welcome in your GitBook!
+
