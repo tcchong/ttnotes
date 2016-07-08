@@ -18,7 +18,7 @@
 * NoSQL
 * Git
 * Others
-* [SOLID](solid.md)
+* [SOLID](Others/solid.md)
 * AWS
 * Others
 
