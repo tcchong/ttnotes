@@ -13,7 +13,7 @@
    * React.js
        * Bookmarks
    * [Bookmarks](js_bookmarks.md)
-* Linux
+* Unix
    * Commands
 * Android
 * NoSQL
