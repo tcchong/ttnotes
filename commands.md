@@ -28,8 +28,6 @@ wheel:*:0:root,<USER_NAME>
 ...
 
 
-
-
 # Finding pid with specific port
 $ sudo lsof -i :80 | grep LISTEN
 
