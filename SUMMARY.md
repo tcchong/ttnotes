@@ -10,6 +10,7 @@
        * [Bookmarks](bookmarks.md)
    * Design patterns
        * [Revealing module](revealing_module.md)
+       * Bookmarks
    * React.js
        * Bookmarks
 
