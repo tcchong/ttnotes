@@ -42,4 +42,8 @@ $ du -Sh | sort -rh | head -n <N>
 
 # Free memory
 $ free && sync && echo 3 > /proc/sys/vm/drop_caches && free
+
+
+# Cleanup log file
+$ cat /dev/null > <LOG_FILE>
 ```
