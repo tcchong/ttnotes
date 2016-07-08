@@ -7,5 +7,5 @@
        * [Modules](modules.md)
        * [NPM](npm.md)
    * Design pattern
-       * Revealing module
+       * [Revealing module](revealing_module.md)
 
