@@ -18,5 +18,6 @@
 * NoSQL
 * Git
 * Others
+   * SOLID
 * AWS
 
