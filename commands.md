@@ -6,11 +6,14 @@ Some of the most frequently used UNIX / Linux commands.
 # Add user
 $ adduser <USER_NAME>
 
+# List user
+$ cat /etc/passwd
+
 # Modify directory owner
 $ chown -R <USER_NAME> <DIRECTORY
 
 # Modify access permissions
-$ chmod <MODE> <FILE>
+$ chmod <OPTIONS> <MODE> <FILE>
 
 # Allow sudo command
 # 1. Modify sshd_config
