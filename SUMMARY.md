@@ -6,6 +6,6 @@
        * [Overview](new.md)
        * [Modules](modules.md)
        * [NPM](npm.md)
-   * Design pattern
+   * Design patterns
        * [Revealing module](revealing_module.md)
 
