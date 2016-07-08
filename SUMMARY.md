@@ -20,7 +20,7 @@
 * AWS
 * Architecture
    * Instant Messaging Backend
-   * Broadcasting
+   * Broadcasting Service
 * Others
    * [SOLID](solid.md)
    * [MQTT](mqtt.md)
