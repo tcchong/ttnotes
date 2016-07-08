@@ -3,13 +3,25 @@
 Some of the most frequently used UNIX / Linux commands.
 
 ```
-# add user
+# Add user
 $ adduser <USER_NAME>
 
-# add user to wheel group
-$ usermod -G wheel <USER_NAME>
+
+# Allow sudo command
+# 1. Modify sshd_config
+$ sudo vim /etc/ssh/sshd_config
+## File: /etc/ssh/sshd_config
+...
+PasswrodAuthentication yes
+...
+# 2. Reload sshd service
+$ sudo service sshd reload
+
+
+# Add user to wheel group
+$ sudo usermod -G wheel <USER_NAME>
 # OR modify the following file
-$ vim /etc/group
+$ sudo vim /etc/group
 ## File: /etc/group
 ...
 wheel:*:0:root,<USER_NAME>
@@ -17,7 +29,8 @@ wheel:*:0:root,<USER_NAME>
 
 
 
-# finding pid with specific port
+
+# Finding pid with specific port
 $ sudo lsof -i :80 | grep LISTEN
 
 
