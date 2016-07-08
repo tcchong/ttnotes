@@ -10,5 +10,7 @@
 - [HiveMQ](http://www.hivemq.com/) (Enterprise)
 
 ## Reference
+
+- https://www.pubnub.com/blog/2014-08-14-what-is-mqtt-use-cases/
 - https://code.facebook.com/posts/820258981365363/building-mobile-first-infrastructure-for-messenger/
 - https://www.facebook.com/notes/facebook-engineering/building-facebook-messenger/10150259350998920/
