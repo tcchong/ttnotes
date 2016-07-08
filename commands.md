@@ -28,8 +28,14 @@ wheel:*:0:root,<USER_NAME>
 ...
 
 
+# List open file for specific port
+lsof -p <PORT> | wc -l
+
+
 # Finding pid with specific port
 $ sudo lsof -i :80 | grep LISTEN
 
 
+# Finding top N largest file
+du -Sh | sort -rh | head -n <N>
 ```
