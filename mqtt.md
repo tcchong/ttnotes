@@ -9,6 +9,10 @@
 - [Mosquitto](https://mosquitto.org/) (Open source & free)
 - [HiveMQ](http://www.hivemq.com/) (Enterprise)
 
+
+## MQTT Client for Android
+- https://eclipse.org/paho/clients/android/
+
 ## Reference
 
 - https://www.pubnub.com/blog/2014-08-14-what-is-mqtt-use-cases/
