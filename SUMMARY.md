@@ -17,8 +17,8 @@
 * Android
 * NoSQL
 * Git
-* [SOLID](solid.md)
 * Others
+* [SOLID](solid.md)
 * AWS
 * Others
 
