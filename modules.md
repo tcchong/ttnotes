@@ -49,6 +49,9 @@
 - [mysql](https://github.com/mongodb/node-mongodb-native)
 - [io-redis](https://github.com/luin/ioredis)
 
+### Linting
+- [eslint](https://github.com/eslint/eslint)
+
 ### Debug
 - [heapdump](https://github.com/bnoordhuis/node-heapdump)
 - [debug](https://github.com/visionmedia/debug)
