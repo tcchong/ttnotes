@@ -18,7 +18,7 @@
 * NoSQL
 * Git
 * AWS
-   * Commands
+   * [Commands](aws_commands.md)
 * Architecture
    * Instant Messaging Backend
    * Broadcasting Service
