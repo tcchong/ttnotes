@@ -17,4 +17,5 @@
 * Android
 * NoSQL
 * Git
+* AWS
 
