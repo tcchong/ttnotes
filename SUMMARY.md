@@ -18,8 +18,8 @@
 * NoSQL
 * Git
 * AWS
+* Architecture
 * Others
    * [SOLID](solid.md)
    * [MQTT](mqtt.md)
-* Architecture
 
