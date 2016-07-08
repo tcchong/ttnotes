@@ -20,4 +20,5 @@
 * [SOLID](solid.md)
 * AWS
 * Others
+   * SOLID
 
