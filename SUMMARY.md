@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Others
 * JavaScript
    * [Node.js](nodejs.md)
        * [Overview](new.md)
@@ -18,5 +17,6 @@
 * Android
 * NoSQL
 * Git
+* Others
 * AWS
 
