@@ -22,5 +22,5 @@
 * Others
    * [SOLID](solid.md)
    * [MQTT](mqtt.md)
-   * Apache Thrift
+   * [Apache Thrift](apache_thrift.md)
 
