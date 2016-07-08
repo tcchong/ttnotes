@@ -15,6 +15,7 @@
    * [Bookmarks](js_bookmarks.md)
 * Unix / Linux
    * [Commands](commands.md)
+   * Shell Script
 * Android
 * NoSQL
 * Git
