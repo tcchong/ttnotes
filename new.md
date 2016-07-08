@@ -4,7 +4,7 @@
 * single thread
 * event-driven
 * non-blocking I/O
-
+* cross-platform
 
 
 Reference:
