@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * JavaScript
    * [Node.js](nodejs.md)
-       * [Overview](new.md)
+       * [Overview](overview.md)
        * [Modules](modules.md)
        * [NPM](npm.md)
        * [Bookmarks](bookmarks.md)
