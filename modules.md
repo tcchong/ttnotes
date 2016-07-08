@@ -55,3 +55,6 @@
 ### Debug
 - [heapdump](https://github.com/bnoordhuis/node-heapdump)
 - [debug](https://github.com/visionmedia/debug)
+
+### Process Manager
+- [pm2](https://github.com/Unitech/pm2)
