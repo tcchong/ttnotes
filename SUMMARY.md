@@ -18,6 +18,7 @@
 * NoSQL
 * Git
 * AWS
+   * Commands
 * Architecture
    * Instant Messaging Backend
    * Broadcasting Service
