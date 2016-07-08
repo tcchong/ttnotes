@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Backend
+* JavaScript
    * [Node.js](nodejs.md)
        * [Overview](new.md)
        * [Modules](modules.md)
