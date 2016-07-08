@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * Unix
+   * Linux
 * JavaScript
    * [Node.js](nodejs.md)
        * [Overview](new.md)
