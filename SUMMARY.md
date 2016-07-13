@@ -12,7 +12,7 @@
        * [Bookmarks](dp_bookmarks.md)
    * React.js
        * Bookmarks
-   * Call & Apply
+   * [Call & Apply](call_&_apply.md)
    * [Bookmarks](js_bookmarks.md)
 * Unix / Linux
    * [Commands](commands.md)
