@@ -19,7 +19,7 @@
    * Shell Script
 * Android
 * NoSQL
-* Git
+* [Git](git.md)
 * AWS
    * [Commands](aws_commands.md)
 * Architecture
