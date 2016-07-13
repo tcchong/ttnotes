@@ -1,2 +1,12 @@
 # JavaScript
 
+
+## Closure
+
+
+## Hoisting
+
+
+
+## Scope
+
