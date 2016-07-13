@@ -13,6 +13,7 @@
    * React.js
        * Bookmarks
    * [Bookmarks](js_bookmarks.md)
+   * Call & Apply
 * Unix / Linux
    * [Commands](commands.md)
    * Shell Script
