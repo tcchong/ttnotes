@@ -12,8 +12,8 @@
        * [Bookmarks](dp_bookmarks.md)
    * React.js
        * Bookmarks
-   * [Bookmarks](js_bookmarks.md)
    * Call & Apply
+   * [Bookmarks](js_bookmarks.md)
 * Unix / Linux
    * [Commands](commands.md)
    * Shell Script
