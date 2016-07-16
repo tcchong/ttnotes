@@ -13,7 +13,7 @@
 ## MQTT Client for Android
 - https://eclipse.org/paho/clients/android/
 
-## Reference
+## References
 
 - https://www.pubnub.com/blog/2014-08-14-what-is-mqtt-use-cases/
 - https://code.facebook.com/posts/820258981365363/building-mobile-first-infrastructure-for-messenger/
