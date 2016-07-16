@@ -45,6 +45,7 @@ console.log(test); // value
 ```
 
 > Support block level scopes via the let keyword
+
 ```js
 if (true) {
   let test = 'value';
