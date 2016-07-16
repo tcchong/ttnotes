@@ -4,6 +4,7 @@
 ### Borrow method
 
 ```js
+// Borrow method from Array.prototype
 function transform() {
     var prefix = arguments[0];
     var args = Array.prototype.slice.call(arguments, 1);
