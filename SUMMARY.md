@@ -16,15 +16,15 @@
     * [Bookmarks](js_bookmarks.md)
 * Unix \/ Linux
     * [Commands](commands.md)
-    * Shell Script
-* Android
+    * [Shell Script](shell-script.md)
+* [Android](android.md)
 * [NoSQL](nosql.md)
 * [Git](git.md)
 * AWS
     * [Commands](aws_commands.md)
 * Architecture
-    * Instant Messaging Backend
-    * Broadcasting Service
+    * [Instant Messaging Backend](instant-messaging-backend.md)
+    * [Broadcasting Service](broadcasting-service.md)
 * Others
     * [SOLID](solid.md)
     * [MQTT](mqtt.md)
