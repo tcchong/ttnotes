@@ -1,3 +1,4 @@
 # Bookmarks
 
-http://shichuan.github.io/javascript-patterns/
+- http://superherojs.com/
+- http://shichuan.github.io/javascript-patterns/
