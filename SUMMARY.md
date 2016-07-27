@@ -3,15 +3,14 @@
 * [Introduction](README.md)
 * [JavaScript](javascript.md)
     * [Node.js](nodejs.md)
-        * [Overview](overview.md)
         * [Modules](modules.md)
         * [NPM](npm.md)
         * [Bookmarks](bookmarks.md)
     * Design patterns
         * [Revealing module](revealing_module.md)
         * [Bookmarks](dp_bookmarks.md)
-    * React.js
-        * Bookmarks
+    * [React.js](reactjs.md)
+        * [Bookmarks](bookmarks.md)
     * [Call & Apply](call_&_apply.md)
     * [Bookmarks](js_bookmarks.md)
 * Unix \/ Linux
