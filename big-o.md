@@ -3,7 +3,8 @@
 - Describe how closely a finite series approximates a gven function
 - Analyzing algorithms for efficiency in computer science
 
-f(n) <= O(g(n))
+f(n) = O(g(x))
+f(n) <= c * (g(n))
 
 |Notation|Name|
 |---|---|
