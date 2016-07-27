@@ -11,8 +11,9 @@
 
 # Component Lifecycle
 
-## Mounting
-
+initial
+getDefaultProps
+getInitialState
 componentWillMount
 render
 componentDidMount
@@ -20,7 +21,7 @@ componentDidMount
 ## Updating
 
 componentWillReceiveProps(if receive props)
-componentShouldUpdate
+shouldComponentUpdate
 componentWillUpdate
 render
 componentDidUpdate
