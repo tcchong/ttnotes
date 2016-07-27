@@ -25,7 +25,7 @@ function iterator(list) {
 }
 
 // O(n^2)
-function iterator(list, list2) {
+function iterator(list) {
  for (var i = 0; i < list.length; i++) {
    for (var j = 0; j < list2.length; j++) {
      // do something
