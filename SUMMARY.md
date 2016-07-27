@@ -24,7 +24,7 @@
 * Architecture
     * [Instant Messaging Backend](instant-messaging-backend.md)
     * [Broadcasting Service](broadcasting-service.md)
-* Others
+* [Others](others.md)
     * [SOLID](solid.md)
     * [MQTT](mqtt.md)
     * [Apache Thrift](apache_thrift.md)
