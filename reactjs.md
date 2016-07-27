@@ -21,7 +21,7 @@ componentDidMount
 ## Updating
 
 componentWillReceiveProps(if receive props)
-shouldComponentUpdate
+shouldComponentUpdate (always return true by default)
 componentWillUpdate
 render
 componentDidUpdate

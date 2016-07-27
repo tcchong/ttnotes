@@ -19,7 +19,7 @@
 * [Android](android.md)
 * [NoSQL](nosql.md)
 * [Git](git.md)
-* AWS
+* [AWS](aws.md)
     * [Commands](aws_commands.md)
 * Architecture
     * [Instant Messaging Backend](instant-messaging-backend.md)
@@ -28,4 +28,6 @@
     * [SOLID](solid.md)
     * [MQTT](mqtt.md)
     * [Apache Thrift](apache_thrift.md)
+* [Data Structure](data-structure.md)
+    * [Big O notation](big-o.md)
 
