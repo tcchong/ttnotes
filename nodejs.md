@@ -8,7 +8,6 @@
 
 # Pros & Cons
 
-
 |Pros|Cons|
 |---|---|
 |Asynchronous event drive I/O|Callback hell|
