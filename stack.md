@@ -17,7 +17,8 @@ Stack.prototype.peek = function() {
 Stack.prototype.pop = function() {
     var lastTop = this.top;
     this.top = lastTop.previous;
-    this.size -= 1;return lastTop;
+    this.size -= 1;
+    return lastTop;
 }
 
 Stack.prototype.push = function(value) {
