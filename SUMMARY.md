@@ -31,4 +31,5 @@
 * [Data Structure](data-structure.md)
     * [Big O notation](big-o.md)
     * [Stack](stack.md)
+    * [Queue](queue.md)
 
