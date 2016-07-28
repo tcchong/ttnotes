@@ -3,7 +3,8 @@
 ```js
 // Linked List stack
 function Stack() {
-    this.top = null;this.size = 0;
+    this.top = null;
+    this.size = 0;
 }
 
 function Node(data) {
