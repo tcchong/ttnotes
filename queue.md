@@ -33,4 +33,12 @@ Queue.prototype.dequeue = function() {
 Queue.prototype.peek = function() {
     return this.first;
 }
+
+var q = new Queue();
+q.enqueue(1); // Node {data: 1, next: null}
+q.enqueue(2); // Node {data: 2, next: null}
+q.enqueue(3); // Node {data: 3, next: null}
+q.peek(); // Node {data: 1, next: Node}
+Objectq.dequeue(); // Node {data: 1, next: Node}
+q.peek(); // Node {data: 2, next: Node}
 ```
