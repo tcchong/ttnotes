@@ -30,4 +30,12 @@ Stack.prototype.push = function(value) {
     this.size += 1;
     return this.top;
 }
+
+var s = new Stack();
+s.push(1); // Node {data: 1, previous: null}
+s.push(2); // Node {data: 2, previous: Node}
+s.push(3); // Node {data: 3, previous: Node}
+s.peek(); // Node {data: 3, previous: Node}
+s.pop(); // Node {data: 3, previous: Node}
+s.peek(); // Node {data: 2, previous: Node}
 ```
