@@ -30,4 +30,5 @@
     * [Apache Thrift](apache_thrift.md)
 * [Data Structure](data-structure.md)
     * [Big O notation](big-o.md)
+    * [Stack](stack.md)
 
