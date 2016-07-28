@@ -5,6 +5,7 @@
 function Stack() {
     this.top = null;this.size = 0;
 }
+
 function Node(data) {
     this.data = data;
     this.previous = null;
