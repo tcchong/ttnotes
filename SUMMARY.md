@@ -13,6 +13,8 @@
         * [Bookmarks](bookmarks.md)
     * [Call & Apply](call_&_apply.md)
     * [Bookmarks](js_bookmarks.md)
+    * [Redux](redux.md)
+        * [Bookmarks](bookmarks.md)
 * Unix \/ Linux
     * [Commands](commands.md)
     * [Shell Script](shell-script.md)
