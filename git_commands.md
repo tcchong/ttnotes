@@ -5,26 +5,42 @@ $ git clone
 
 # add to stage
 # git add <FILE_DIRECTORY>
-
+$ git add .
 
 # add to repository
-git commit -m "<MESSAGE>"
-git commit -am "<MESSAGE>"
+# git commit -m "<MESSAGE>"
+# git commit -am "<MESSAGE>"
+$ git commit -m "first commit"
 
 # add to remote
-git push -u <REMOTE> <LOCAL>
+# git push -u <REMOTE> <REF>
+$ git push -u origin master
 
-git rebase <BRANCH>
-git merge <BRANCH>
+# git rebase <BRANCH>
+$ git rebase master
 
-git checkout <BRANCH>
+# git merge <BRANCH>
+$ git merge dev
+
+# changing branch
+# git checkout <BRANCH>
+$ git checkout dev
+
+# checkout to a new branch
+# git checkout -b <BRANCH>
+$ git checkout -b new-branch
 
 # checkout remote branch
-git checkout -b <LOCAL_BRANCH> <REMOTE_BRANCH>
+# git checkout -b <LOCAL_BRANCH> <REMOTE_BRANCH>
+$ git checkout -b dev-function origin/dev-function
 
 # fetch specific branch
-git fetch <REMOTE> <BRANCH>
+# git fetch <REMOTE> <BRANCH>
+$ git fetch origin dev
 
 # edit remote url
-git remote set-url <REMOTE> <URL>
+# git remote set-url <REMOTE> <URL>
+$ git remote set-url origin git://xxxxxx.git
+# OR modify with text editor
+$ vim .git/config
 ```
