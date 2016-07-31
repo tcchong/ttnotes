@@ -10,9 +10,8 @@
         * [Revealing module](revealing_module.md)
         * [Bookmarks](dp_bookmarks.md)
     * [React.js](reactjs.md)
-        * Higher Order Components
+        * [Higher Order Components](higher-order-components.md)
         * [Bookmarks](bookmarks.md)
-    * [Higher Order Components](higher-order-components.md)
     * [Redux](redux.md)
         * [Bookmarks](bookmarks.md)
     * [Call & Apply](call_&_apply.md)
