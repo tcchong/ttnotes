@@ -12,7 +12,7 @@ $ git branch
 $ git branch -d dev
 
 # add to stage
-# git add <FILE_DIRECTORY>
+# git add <FILE>
 $ git add .
 
 # add to repository
@@ -33,6 +33,10 @@ $ git merge dev
 # changing branch
 # git checkout <BRANCH>
 $ git checkout dev
+
+# discard change from stage
+# git checkout -- <FILE>
+$ git checkout -- .
 
 # checkout to a new branch
 # git checkout -b <BRANCH>
