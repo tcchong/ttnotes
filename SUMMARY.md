@@ -16,7 +16,7 @@
     * [Call & Apply](call_&_apply.md)
     * [Bookmarks](js_bookmarks.md)
 * Unix \/ Linux
-    * [Commands](commands.md)
+    * [Commands](unix_commands.md)
     * [Shell Script](shell-script.md)
 * [Android](android.md)
 * [NoSQL](nosql.md)
