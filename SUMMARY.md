@@ -21,7 +21,7 @@
 * [Android](android.md)
 * [NoSQL](nosql.md)
 * [Git](git.md)
-    * [Commands](commands.md)
+    * [Commands](git_commands.md)
 * [AWS](aws.md)
     * [Commands](aws_commands.md)
 * Architecture
