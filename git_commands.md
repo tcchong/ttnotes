@@ -2,6 +2,14 @@
 
 ```sh
 $ git clone
+$ git log
+$ git status
+$ git diff
+
+$ git branch
+# delete local branch
+# git branch -d <BRANCH>
+$ git branch -d dev
 
 # add to stage
 # git add <FILE_DIRECTORY>
@@ -38,10 +46,18 @@ $ git checkout -b dev-function origin/dev-function
 # git fetch <REMOTE> <BRANCH>
 $ git fetch origin dev
 
+$ git remote add origin https://github.com/tcchong/test.git
+
 # edit remote url
 # git remote set-url <REMOTE> <URL>
 $ git remote set-url origin git://xxxxxx.git
 
 # OR modify with text editor
 $ vim .git/config
+
+$ git stash 
+$ git stash list
+$ git stash save "TMP"
+$ git stash pop
+
 ```
