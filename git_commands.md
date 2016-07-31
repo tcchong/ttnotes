@@ -41,6 +41,7 @@ $ git fetch origin dev
 # edit remote url
 # git remote set-url <REMOTE> <URL>
 $ git remote set-url origin git://xxxxxx.git
+
 # OR modify with text editor
 $ vim .git/config
 ```
