@@ -10,11 +10,11 @@
 
 |Pros|Cons|
 |---|---|
-|Concurrent request handling||
-|Fast processing||
-|Asynchronous event drive I/O|Callback hell|
-|Universal across client and server|Not suitable for CPU-intensive tasks|
-|Community||
+|Concurrent request handling|Callback hell|
+|Fast processing|Not suitable for CPU-intensive tasks|
+|Asynchronous event drive I/O|-|
+|Universal across client and server|-|
+|Community|-|
 
 References:
 https://nodejs.org/en/
