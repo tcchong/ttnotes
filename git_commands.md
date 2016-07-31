@@ -34,7 +34,7 @@ $ git merge dev
 # git checkout <BRANCH>
 $ git checkout dev
 
-# discard change from stage
+# discard change
 # git checkout -- <FILE>
 $ git checkout -- .
 
