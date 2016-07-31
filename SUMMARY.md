@@ -11,9 +11,11 @@
         * [Bookmarks](dp_bookmarks.md)
     * [React.js](reactjs.md)
         * [Bookmarks](bookmarks.md)
+    * [Higher Order Components](higher-order-components.md)
     * [Redux](redux.md)
         * [Bookmarks](bookmarks.md)
     * [Call & Apply](call_&_apply.md)
+    * Higher Order Function
     * [Bookmarks](js_bookmarks.md)
 * Unix \/ Linux
     * [Commands](unix_commands.md)
