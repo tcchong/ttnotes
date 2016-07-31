@@ -10,8 +10,8 @@
         * [Revealing module](revealing_module.md)
         * [Bookmarks](dp_bookmarks.md)
     * [React.js](reactjs.md)
+        * [Stateless Function Components](stateless-function-components.md)
         * [Higher Order Components](higher-order-components.md)
-        * Stateless Function Components
         * [Bookmarks](bookmarks.md)
     * [Redux](redux.md)
         * [Bookmarks](bookmarks.md)
