@@ -54,4 +54,7 @@ $ free && sync && echo 3 > /proc/sys/vm/drop_caches && free
 
 # Cleanup log file
 $ cat /dev/null > <LOG_FILE>
+
+# generate ssh key
+$ ssh-keygen -t rsa -C <YOUR_NAME>
 ```

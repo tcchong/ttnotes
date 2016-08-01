@@ -59,6 +59,9 @@ $ git remote set-url origin git://xxxxxx.git
 # OR modify with text editor
 $ vim .git/config
 
+# remove file from staging area
+$ git reset HEAD <FILE>
+
 $ git stash 
 $ git stash list
 $ git stash save "TMP"
