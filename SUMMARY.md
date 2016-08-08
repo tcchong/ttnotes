@@ -43,6 +43,7 @@
     * \(X\) Kanban
     * [MQTT](mqtt.md)
     * [Apache Thrift](apache_thrift.md)
+    * [CI \/ CD Reference](ci--cd-reference.md)
 * [Data Structure](data-structure.md)
     * [Big O notation](big-o.md)
     * [Stack](stack.md)
