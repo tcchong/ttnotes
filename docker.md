@@ -5,6 +5,34 @@
 
 ### docker-compose
 
+
+```
+# Configure your docker-compose.yml
+$ touch docker-compose.yml
+
+# Build with Dockerfile
+$ docker-compose build
+
+# Run service
+$ docker-compose up
+```
+
+#### Sample docker-compose.yml with Node.js
+
+
+```
+# docker-compose.yml
+yourapp:
+  build: .
+  ports:
+    - "3000:3000"
+```
+
 ### docker-machine
+> Docker Machine is a tool that lets you install Docker Engine on virtual hosts, and manage the hosts withdocker-machine commands.
+>
+> https://docs.docker.com/machine/overview/
+
+
 
 ### docker-swarm
