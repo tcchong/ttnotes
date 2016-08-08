@@ -15,10 +15,12 @@ $ docker-compose build
 
 # Run service
 $ docker-compose up
+
+# Run service in the background (detached mode)
+$ docker-compose up -d
 ```
 
-#### Sample docker-compose.yml with Node.js
-
+`Sample docker-compose.yml with Node.js`
 
 ```
 # docker-compose.yml
