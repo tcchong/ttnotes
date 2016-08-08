@@ -19,7 +19,10 @@ $ docker-compose build
 $ docker-compose up
 
 # Run service in the background (detached mode)
-$ docker-compose up -d
+$ docker-compose up -d <APP>
+
+# Run service with updated images
+$ docker-compose up --no-deps -d <APP>
 ```
 
 `Sample docker-compose.yml with Node.js`
