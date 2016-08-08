@@ -3,6 +3,13 @@
 >
 > https://www.docker.com/
 
+### docker commands
+
+```
+# remove untagged images
+$ docker rmi $(docker images -q --filter "dangling=true")
+```
+
 ### docker-compose
 > Compose is a tool for defining and running multi-container Docker applications. 
 >
@@ -43,3 +50,10 @@ yourapp:
 
 
 ### docker-swarm
+
+
+
+
+
+# Reference
+- http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet/
