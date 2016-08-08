@@ -4,7 +4,9 @@
 > https://www.docker.com/
 
 ### docker-compose
-
+> Compose is a tool for defining and running multi-container Docker applications. 
+>
+> https://docs.docker.com/compose/overview/
 
 ```
 # Configure your docker-compose.yml
