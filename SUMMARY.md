@@ -50,5 +50,5 @@
     * \(X\) Sorting
 * [Docker](docker.md)
     * [Bookmarks](docker_bookmarks.md)
-    * Install docker on centos 6
+    * [Install docker on centos 6](install-docker-on-centos-6.md)
 
