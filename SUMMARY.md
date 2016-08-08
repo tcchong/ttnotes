@@ -22,7 +22,7 @@
         * [\(X\) Higher Order Components](higher-order-components.md)
         * [Bookmarks](bookmarks.md)
     * [\(X\) Redux](redux.md)
-        * [Bookmarks](bookmarks.md)
+        * [Bookmarks](redux_bookmarks.md)
     * [Call & Apply](call_&_apply.md)
     * [\(X\) Higher Order Function](higher-order-function.md)
     * [Bookmarks](js_bookmarks.md)
@@ -48,5 +48,6 @@
     * [Stack](stack.md)
     * [Queue](queue.md)
     * \(X\) Sorting
-* Docker
+* [Docker](docker.md)
+    * [Bookmarks](docker_bookmarks.md)
 
