@@ -57,4 +57,7 @@ $ cat /dev/null > <LOG_FILE>
 
 # generate ssh key
 $ ssh-keygen -t rsa -C <YOUR_NAME>
+
+# Change user shell
+$ chsh -s /bin/bash <USERNAME>
 ```
