@@ -40,7 +40,7 @@
     * [\(X\) Broadcasting Service](broadcasting-service.md)
 * [Others](others.md)
     * [\(X\) SOLID](solid.md)
-    * \(X\) Kanban
+    * [\(X\) Kanban](x-kanban.md)
     * [MQTT](mqtt.md)
     * [Apache Thrift](apache_thrift.md)
     * [CI \/ CD Reference](ci--cd-reference.md)
