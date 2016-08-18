@@ -6,6 +6,9 @@
 ### docker commands
 
 ```
+# commit
+$ docker commit <CONTAINER_ID> <NAME>
+
 # remove untagged images
 $ docker rmi $(docker images -q --filter "dangling=true")
 ```
