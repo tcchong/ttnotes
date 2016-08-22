@@ -1,5 +1,9 @@
 # Live Stream Server - Nginx + RTMP
 
+> Real-Time Messaging Protocol (RTMP) was initially a proprietary protocol developed by Macromedia for streaming audio, video and data over the Internet, between a Flash player and a server
+>
+> https://en.wikipedia.org/wiki/Real-Time_Messaging_Protocol
+
 ### Installing ffmpeg and nginx with RTMP module
 
 ### Publishing with ffmpeg
