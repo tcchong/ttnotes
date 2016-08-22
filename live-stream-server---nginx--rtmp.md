@@ -1,8 +1,14 @@
 # Live Stream Server - Nginx + RTMP
 
+### RTMP
 > Real-Time Messaging Protocol (RTMP) was initially a proprietary protocol developed by Macromedia for streaming audio, video and data over the Internet, between a Flash player and a server.
 >
 > https://en.wikipedia.org/wiki/Real-Time_Messaging_Protocol
+
+### HLS
+> HTTP Live Streaming (also known as HLS) is an HTTP-based media streaming communications protocol implemented by Apple Inc.
+>
+> https://en.wikipedia.org/wiki/HTTP_Live_Streaming
 
 ### Installing ffmpeg and nginx with RTMP module
 - https://www.vultr.com/docs/setup-nginx-rtmp-on-ubuntu-14-04
