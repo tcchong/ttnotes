@@ -45,11 +45,12 @@
     * [Apache Thrift](apache_thrift.md)
     * [CI \/ CD Reference](ci--cd-reference.md)
     * [Live Stream server - Nginx + RTMP](live-stream-server---nginx--rtmp.md)
+    * [JWT](jwt.md)
 * [Data Structure](data-structure.md)
     * [Big O notation](big-o.md)
     * [Stack](stack.md)
     * [Queue](queue.md)
-    * \(X\) Sorting
+    * [\(X\) Sorting](x-sorting.md)
 * [Docker](docker.md)
     * [Bookmarks](docker_bookmarks.md)
     * [Install on Centos 6](install-on-centos-6.md)
