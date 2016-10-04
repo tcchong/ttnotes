@@ -14,6 +14,8 @@ export PATH=<MONGODB_DIR>/bin:$PATH
 # Run MongoDB as a daemon
 $ mongod --fork --logpath <LOG_PATH> --logappend --dbpath <DB_PATH>
 
+# Restore DB to localhost
+mongorestore -d <DB_NAME> <LOCAL_DIR>
 ```
 
 ### Reference
