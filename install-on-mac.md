@@ -15,7 +15,7 @@ export PATH=<MONGODB_DIR>/bin:$PATH
 $ mongod --fork --logpath <LOG_PATH> --logappend --dbpath <DB_PATH>
 
 # Restore DB to localhost
-mongorestore -d <DB_NAME> <LOCAL_DIR>
+$ mongorestore -d <DB_NAME> <LOCAL_DIR>
 ```
 
 ### Reference
