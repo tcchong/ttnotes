@@ -26,7 +26,7 @@
     * [Call & Apply](call_&_apply.md)
     * [\(X\) Higher Order Function](higher-order-function.md)
     * [Bookmarks](js_bookmarks.md)
-* Unix \/ Linux
+* [Unix \/ Linux](unix--linux.md)
     * [Commands](unix_commands.md)
     * [\(X\) Shell Script](shell-script.md)
 * [\(X\) Android](android.md)

@@ -6,6 +6,9 @@
 ### docker commands
 
 ```
+# get into shell
+$ docker exec -it <CONTAINER_ID_OR_NAME> /bin/bash
+
 # commit
 $ docker commit <CONTAINER_ID> <NAME>
 
