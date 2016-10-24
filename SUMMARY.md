@@ -5,7 +5,7 @@
     * [Node.js](nodejs.md)
         * [Modules](modules.md)
         * [NPM](npm.md)
-        * [Bookmarks](bookmarks.md)
+        * [Bookmarks](nodejs_bookmarks.md)
     * [Design patterns](design-patterns.md)
         * [Revealing module](revealing_module.md)
         * \(X\) Singleton
