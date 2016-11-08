@@ -17,6 +17,9 @@ $ docker commit <CONTAINER_ID> <NAME>
 
 # remove untagged images
 $ docker rmi $(docker images -q --filter "dangling=true")
+
+# copy file from host to container
+$ docker cp <CONTAINER_NAME>:<FILE_DIR> <HOST_FILE_DIR>
 ```
 
 ### docker-compose
