@@ -66,5 +66,4 @@ $ git stash
 $ git stash list
 $ git stash save "TMP"
 $ git stash pop
-
 ```

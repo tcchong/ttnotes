@@ -6,11 +6,20 @@
 ### docker commands
 
 ```
+# login to shell
+$ docker exec -it <CONTAINER_ID_OR_NAME> /bin/bash
+
+# login with root
+$ docker exec -it -u root <CONTAINER_ID_OR_NAME> /bin/bash
+
 # commit
 $ docker commit <CONTAINER_ID> <NAME>
 
 # remove untagged images
 $ docker rmi $(docker images -q --filter "dangling=true")
+
+# copy file from host to container
+$ docker cp <CONTAINER_NAME>:<FILE_DIR> <HOST_FILE_DIR>
 ```
 
 ### docker-compose
