@@ -66,4 +66,8 @@ $ git stash
 $ git stash list
 $ git stash save "TMP"
 $ git stash pop
+
+# fetch remote branch
+$ git fetch --all
+$ git checkout --track <REMOTE>/<BRANCH>
 ```
