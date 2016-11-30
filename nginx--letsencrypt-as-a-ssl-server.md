@@ -29,7 +29,7 @@ Generate SSL certificate with certbot
 $ certbot certonly --standalone -d <YOUR_DOMAIN>
 ```
 
-## Nginx Configuration
+## Configuring Nginx
 
 Edit nginx configuration
 ```
