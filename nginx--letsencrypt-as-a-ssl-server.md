@@ -1,6 +1,6 @@
 # Nginx + Letsencrypt as a SSL Server
 
-System: Debian 8 (Jessie)
+> Image: Debian 8 (Jessie)
 
 ## Installation
 
