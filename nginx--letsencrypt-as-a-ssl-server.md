@@ -28,7 +28,7 @@ $ sudo apt-get install certbot -t jessie-backports
 $ certbot certonly --standalone -d <YOUR_DOMAIN>
 ```
 
-### Nginx Configuration
+## Nginx Configuration
 
 Edit nginx configuration
 ```
