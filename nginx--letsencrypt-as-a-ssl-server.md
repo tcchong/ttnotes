@@ -24,6 +24,7 @@ $ sudo apt-get install certbot -t jessie-backports
 
 ## Generate SSL Certificate
 
+Generate SSSL certificate with certbot
 ```
 $ certbot certonly --standalone -d <YOUR_DOMAIN>
 ```
