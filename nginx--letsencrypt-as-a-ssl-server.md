@@ -30,6 +30,7 @@ $ certbot certonly --standalone -d <YOUR_DOMAIN>
 
 ### Configuration nginx
 
+Edit nginx configuration
 ```
 # nginx conf
 ...
