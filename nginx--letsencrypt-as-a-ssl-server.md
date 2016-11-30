@@ -4,13 +4,13 @@
 
 ## Installation
 
-### Install nginx 
+### Installing nginx 
 ```
 $ sudo apt-get update
 $ sudo apt-get install nginx -y
 ```
 
-### Install certbot
+### Installing certbot
 
 ```
 $ vim /etc/apt/sources.list.d/sources.list
