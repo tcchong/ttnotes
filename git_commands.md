@@ -25,7 +25,7 @@ $ git commit -m "first commit"
 $ git push -u origin master
 
 # delete remote branch
-$ git push origin --detelte <BRANCH_NAME>
+$ git push origin --delete <BRANCH_NAME>
 
 # git rebase <BRANCH>
 $ git rebase master
