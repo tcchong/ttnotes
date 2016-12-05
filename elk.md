@@ -1,6 +1,12 @@
-### List all indexex
+# ELK Stack
 
-http://YOUR_DOMAIN/_cat/indices?v
+```
+# Retrieve List with Index and Type
+/<INDEX>/<TYPE>/_search
+
+# List all indexex
+/_cat/indices?v
+```
 
 
 # References
