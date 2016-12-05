@@ -60,4 +60,7 @@ $ ssh-keygen -t rsa -C <YOUR_NAME>
 
 # Change user shell
 $ chsh -s /bin/bash <USERNAME>
+
+# Merge config file
+$ cat /<DIR>/* > /tmp/all.conf
 ```
