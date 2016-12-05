@@ -17,3 +17,8 @@ Timelion
 
 Logstash
 - https://www.devops.zone/solr-elasticsearch/shipping-your-nginx-logs-to-elasticsearch-using-logstash/
+- https://github.com/elastic/examples/tree/master/ElasticStack_NGINX
+- http://logz.io/blog/log-analysis-technical-seo/
+
+Kibana Templates
+- https://github.com/elastic/examples/blob/master/ElasticStack_NGINX/nginx_kibana.json
