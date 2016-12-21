@@ -73,4 +73,6 @@ $ git stash pop
 # fetch remote branch
 $ git fetch --all
 $ git checkout --track <REMOTE>/<BRANCH>
+
+$ git log --oneline -S'<TEXT_TO_SEARCH>' <FILE>
 ```
