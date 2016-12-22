@@ -3,6 +3,7 @@
 - http://superherojs.com/
 - http://shichuan.github.io/javascript-patterns/
 - https://nolanlawson.com/2016/08/15/the-cost-of-small-modules/?utm_source=javascriptweekly&utm_medium=email
+- https://medium.com/javascript-scene/top-javascript-frameworks-topics-to-learn-in-2017-700a397b711#.3pk5lqgqk
 
 
 ## SSL with letsencrypt
