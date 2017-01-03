@@ -6,6 +6,7 @@
         * [Modules](modules.md)
         * [NPM](npm.md)
         * [Bookmarks](nodejs_bookmarks.md)
+        * [Testing](testing.md)
     * [Design patterns](design-patterns.md)
         * [Revealing module](revealing_module.md)
         * \(X\) Singleton
