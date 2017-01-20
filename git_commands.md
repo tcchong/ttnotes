@@ -69,6 +69,7 @@ $ git stash
 $ git stash list
 $ git stash save "TMP"
 $ git stash pop
+$ git stash drop stash@{0}
 
 # fetch remote branch
 $ git fetch --all
