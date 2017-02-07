@@ -10,6 +10,7 @@ $ git branch
 # delete local branch
 # git branch -d <BRANCH>
 $ git branch -d dev
+$ git branch -m <NEW_NAME>
 
 # add to stage
 # git add <FILE>
