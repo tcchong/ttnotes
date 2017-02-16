@@ -1,4 +1,4 @@
-## gcloud + zsh
+## zsh compinit
 
 Issues
 ```
