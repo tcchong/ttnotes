@@ -9,14 +9,6 @@
     * [Testing](testing.md)
   * [Design patterns](design-patterns.md)
     * [Revealing module](revealing_module.md)
-    * \(X\) Singleton
-    * \(X\) Factory
-    * \(X\) Decorator
-    * \(X\) Strategy
-    * \(X\) Facade
-    * \(X\) Proxy
-    * \(X\) Mediator
-    * \(X\) Observer
     * [Bookmarks](dp_bookmarks.md)
   * [React.js](reactjs.md)
     * [\(X\) Stateless Function Components](stateless-function-components.md)
