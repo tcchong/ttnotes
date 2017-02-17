@@ -77,6 +77,12 @@ $ git fetch --all
 $ git checkout --track <REMOTE>/<BRANCH>
 
 $ git log --oneline -S'<TEXT_TO_SEARCH>' <FILE>
+
+
+# remove branch fulfill 
+# feature/some-abc-test
+# feature/some-def-test
+$ git branch -D `git branch | grep -E 'feature/some-.*-test'`
 ```
 
 
