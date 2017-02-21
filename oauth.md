@@ -2,7 +2,7 @@
 
 - An authorization framework
 - 4 roles in OAuth
-    - Resource Owner - Ex. end-user
+    - Resource Owner - User
     - Resource Server - Ex. REST API Server
     - Client - Application executes on a server, desktop, devices
     - Authorization Server
