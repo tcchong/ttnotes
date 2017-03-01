@@ -63,4 +63,7 @@ $ chsh -s /bin/bash <USERNAME>
 
 # Merge config file
 $ cat /<DIR>/* > /tmp/all.conf
+
+# Find out linux distribution name and vesion
+$ cat /etc/*-release
 ```
