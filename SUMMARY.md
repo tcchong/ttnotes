@@ -22,6 +22,7 @@
   * [Commands](unix_commands.md)
   * [\(X\) Shell Script](shell-script.md)
   * [zsh compinit](gcloud-zsh-compinit-insecure-directories.md)
+  * [Nginx + Basic Auth](nginx-+-basic-auth.md)
 * [NoSQL](nosql.md)
   * [MongoDB](mongodb.md)
     * [Install on Mac](install-on-mac.md)
