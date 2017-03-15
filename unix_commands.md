@@ -7,7 +7,7 @@ Some of the most frequently used UNIX / Linux commands.
 $ useradd <USER_NAME>
 
 # Add user with custom shell and comment
-$ useradd specialuser -s /bin/sh -c "Special user"
+$ useradd <USER_NAME> -s /bin/sh -c "Some Comment"
 
 # List user
 $ cat /etc/passwd
