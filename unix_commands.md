@@ -6,6 +6,9 @@ Some of the most frequently used UNIX / Linux commands.
 # Add user
 $ adduser <USER_NAME>
 
+# Add user with custom shell and comment
+$ useradd specialuser -s /bin/sh -c "Special user"
+
 # List user
 $ cat /etc/passwd
 
