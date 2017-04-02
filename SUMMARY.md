@@ -27,7 +27,7 @@
     * [Install on Mac](install-on-mac.md)
     * [Bookmarks](mongodb_bookmarks.md)
 * [Git](git.md)
-  * [Commands](git_commands.md)
+  * [Frequently used commands](git_commands.md)
 * [Others](others.md)
   * [\(X\) SOLID](solid.md)
   * [MQTT](mqtt.md)

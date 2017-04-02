@@ -1,4 +1,4 @@
-# Commands
+# Frequently used commands
 
 ```sh
 $ git clone
