@@ -30,7 +30,6 @@ $ sudo vim /etc/group
 ...
 wheel:*:0:root,<USER_NAME>
 ...
-
 ```
 
 ### Permission or Access Control
@@ -62,9 +61,6 @@ $ du -Sh | sort -rh | head -n <N>
 
 # List open file for specific port
 $ lsof -p <PORT> | wc -l
-
-
-
 ```
 
 ### SSH
@@ -109,7 +105,6 @@ $ openssl rand -hex <LENGTH>
 # Retrieve filename from file/directory
 $ for i in $(ls file/*.mp4); do echo $(basename $i .mp4); done
 $ for i in $(cat filename); do echo $(basename $i .mp4); done
-
 ```
 
 

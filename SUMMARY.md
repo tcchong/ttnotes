@@ -19,7 +19,7 @@
   * [\(X\) Higher Order Function](higher-order-function.md)
   * [Bookmarks](js_bookmarks.md)
 * [Unix / Linux](unix--linux.md)
-  * [Commands](unix_commands.md)
+  * [Frequently used commands](unix_commands.md)
   * [zsh compinit](gcloud-zsh-compinit-insecure-directories.md)
   * [Nginx + Basic Auth](nginx-+-basic-auth.md)
 * [NoSQL](nosql.md)
