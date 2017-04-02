@@ -1,4 +1,4 @@
-# Frequently used Commands
+# Frequently used commands
 
 Some of the most frequently used UNIX / Linux commands.
 
@@ -11,8 +11,26 @@ Some of the most frequently used UNIX / Linux commands.
 # -c=Comment
 $ useradd testuser -s /bin/sh -c "Some Comment"
 
+
+# Change user shell
+$ chsh -s /bin/bash <USERNAME>
+
+
 # List user
 $ cat /etc/passwd
+
+
+# Add user to wheel group
+$ sudo usermod -G wheel <USER_NAME>
+
+
+# OR modify the following file
+$ sudo vim /etc/group
+## File: /etc/group
+...
+wheel:*:0:root,<USER_NAME>
+...
+
 ```
 
 ### Permission or Access Control
@@ -32,24 +50,33 @@ $ chown -R testuser:testgroup dirname
 $ chmod u+r,g+x filename
 ```
 
+### File
+
+```
+# Cleanup file
+$ cat /dev/null > <LOG_FILE>
+
+# Finding top N largest file
+$ du -Sh | sort -rh | head -n <N>
+
+
+# List open file for specific port
+$ lsof -p <PORT> | wc -l
+
 
 
 ```
-# Add user
-$ useradd <USER_NAME>
 
-# Add user with custom shell and comment
-$ useradd <USER_NAME> -s /bin/sh -c "Some Comment"
+### SSH
 
-# List user
-$ cat /etc/passwd
+```
+# generate ssh key
+$ ssh-keygen -t rsa -C <YOUR_NAME>
+```
 
-# Modify directory owner
-$ chown -R <USER_NAME> <DIRECTORY
+### Untagged
 
-# Modify access permissions
-$ chmod <OPTIONS> <MODE> <FILE>
-
+```
 # Allow sudo command
 # 1. Modify sshd_config
 $ sudo vim /etc/ssh/sshd_config
@@ -61,46 +88,28 @@ PasswrodAuthentication yes
 $ sudo service sshd reload
 
 
-# Add user to wheel group
-$ sudo usermod -G wheel <USER_NAME>
-# OR modify the following file
-$ sudo vim /etc/group
-## File: /etc/group
-...
-wheel:*:0:root,<USER_NAME>
-...
-
-
-# List open file for specific port
-$ lsof -p <PORT> | wc -l
-
-
 # Finding pid with specific port
 $ sudo lsof -i :80 | grep LISTEN
-
-
-# Finding top N largest file
-$ du -Sh | sort -rh | head -n <N>
 
 
 # Free memory
 $ free && sync && echo 3 > /proc/sys/vm/drop_caches && free
 
 
-# Cleanup log file
-$ cat /dev/null > <LOG_FILE>
-
-# generate ssh key
-$ ssh-keygen -t rsa -C <YOUR_NAME>
-
-# Change user shell
-$ chsh -s /bin/bash <USERNAME>
-
 # Merge config file
 $ cat /<DIR>/* > /tmp/all.conf
 
+
 # Find out linux distribution name and vesion
 $ cat /etc/*-release
+
+# Generate random string with length
+$ openssl rand -hex <LENGTH>
+
+# Retrieve filename from file/directory
+$ for i in $(ls file/*.mp4); do echo $(basename $i .mp4); done
+$ for i in $(cat filename); do echo $(basename $i .mp4); done
+
 ```
 
 
