@@ -1,7 +1,5 @@
 # Introduction
 
-Notes migration from Evernote
-
 ### Tools
 
 * tmux
