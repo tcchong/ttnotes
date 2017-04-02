@@ -1,6 +1,6 @@
 # Introduction
 
-Migrating from Evernote \(Work in Progress\)
+Migrating notes from Evernote
 
 ### Tools
 
