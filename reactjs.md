@@ -10,22 +10,22 @@
 
 # Component Lifecycle
 
-initial
-getDefaultProps  
-getInitialState  
-componentWillMount  
-render  
-componentDidMount
+- initial
+- getDefaultProps  
+- getInitialState  
+- componentWillMount  
+- render  
+- componentDidMount
 
 ## Updating
 
-componentWillReceiveProps\(if receive props\)  
-shouldComponentUpdate \(always return true by default\)  
-componentWillUpdate  
-render  
-componentDidUpdate
+- componentWillReceiveProps\(if receive props\)  
+- shouldComponentUpdate \(always return true by default\)  
+- componentWillUpdate  
+- render  
+- componentDidUpdate
 
 ## Unmount
 
-componentWillUnmount
+- componentWillUnmount
 
