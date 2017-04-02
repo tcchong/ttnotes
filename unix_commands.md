@@ -1,6 +1,38 @@
-ssh \# Commands
+# Frequently used Commands
 
 Some of the most frequently used UNIX / Linux commands.
+
+### User
+
+```
+# Add user with custom shell and comment
+# useradd <USER_NAME>
+# -s=User login shell
+# -c=Comment
+$ useradd testuser -s /bin/sh -c "Some Comment"
+
+# List user
+$ cat /etc/passwd
+```
+
+### Permission or Access Control
+
+```
+# Modify directory owner
+# Use -R(recursive) to include files in directory
+# chown <USER_NAME>:<GROUP_NAME> <DIRECTORY> 
+$ chown -R testuser:testgroup dirname
+
+# Modify access permissions
+# u=user, g=group, o=others
+# r=read, w=write, x=execute
+# +=add permission, -=remove permission
+# Use comma to separate the multiple permission
+# chmod <OPTIONS> <MODE> <FILE> 
+$ chmod u+r,g+x filename
+```
+
+
 
 ```
 # Add user
