@@ -51,21 +51,31 @@ $ chmod u+r,g+x filename
 
 ### File
 
+Cleanup file
+
 ```
-# Cleanup file
 $ cat /dev/null > <LOG_FILE>
+```
 
-# Finding top N largest file
+Finding top N largest file
+
+```
 $ du -Sh | sort -rh | head -n <N>
+```
 
+List open file for specific port
 
-# List open file for specific port
+```
 $ lsof -p <PORT> | wc -l
+```
 
-# Split file by line
-# split <OPTIONS> <LINE_NUMBER> <FILE_NAME> <SPLITTED_FILE_NAME>
-# -l=linebumber, -b=bytes
-# splitted file name will be <SPLITTED_FILE_NAME>aa <SPLITTED_FILE_NAME>ab in the following example
+
+Split file by line
+
+- split <OPTIONS> <LINE_NUMBER> <FILE_NAME> <SPLITTED_FILE_NAME>
+- -l=linebumber, -b=bytes
+- splitted file name will be <SPLITTED_FILE_NAME>aa <SPLITTED_FILE_NAME>ab in the following example
+```
 $ split -l 200 filename splittedfilename
 ```
 
