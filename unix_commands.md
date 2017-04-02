@@ -4,25 +4,27 @@ Some of the most frequently used UNIX / Linux commands.
 
 ### User
 
+Add user with custom shell and comment
+- `useradd <USER_NAME>`
+- -s=User login shell
+- -c=Comment
 ```
-# Add user with custom shell and comment
-# useradd <USER_NAME>
-# -s=User login shell
-# -c=Comment
 $ useradd testuser -s /bin/sh -c "Some Comment"
+```
 
-
-# Change user shell
+Change user shell
+```
 $ chsh -s /bin/bash <USERNAME>
+```
 
-
-# List user
+List user
+```
 $ cat /etc/passwd
+```
 
-
-# Add user to wheel group
+Add user to wheel group
+```
 $ sudo usermod -G wheel <USER_NAME>
-
 
 # OR modify the following file
 $ sudo vim /etc/group
@@ -34,18 +36,21 @@ wheel:*:0:root,<USER_NAME>
 
 ### Permission/Access Control
 
-```
-# Modify directory owner
-# Use -R(recursive) to include files in directory
-# chown <USER_NAME>:<GROUP_NAME> <DIRECTORY> 
-$ chown -R testuser:testgroup dirname
 
-# Modify access permissions
-# u=user, g=group, o=others
-# r=read, w=write, x=execute
-# +=add permission, -=remove permission
-# Use comma to separate the multiple permission
-# chmod <OPTIONS> <MODE> <FILE> 
+Modify directory owner
+- Use -R(recursive) to include files in directory
+- `chown <USER_NAME>:<GROUP_NAME> <DIRECTORY>`
+```
+$ chown -R testuser:testgroup dirname
+```
+
+Modify access permissions
+- u=user, g=group, o=others
+- r=read, w=write, x=execute
+- +=add permission, -=remove permission
+- Use comma to separate the multiple permission
+- `chmod <OPTIONS> <MODE> <FILE>`
+```
 $ chmod u+r,g+x filename
 ```
 
@@ -69,12 +74,11 @@ List open file for specific port
 $ lsof -p <PORT> | wc -l
 ```
 
-
 Split file by line
 
-- `split <OPTIONS> <LINE_NUMBER> <FILE_NAME> <SPLITTED_FILE_NAME>`
-- -l=linebumber, -b=bytes
-- splitted file name will be `<SPLITTED_FILE_NAME>aa` `<SPLITTED_FILE_NAME>ab` in the following example
+* `split <OPTIONS> <LINE_NUMBER> <FILE_NAME> <SPLITTED_FILE_NAME>`
+* -l=linebumber, -b=bytes
+* splitted file name will be `<SPLITTED_FILE_NAME>aa` `<SPLITTED_FILE_NAME>ab` in the following example
 
 ```
 $ split -l 200 filename splittedfilename
@@ -83,6 +87,7 @@ $ split -l 200 filename splittedfilename
 ### SSH
 
 Generate ssh key
+
 ```
 $ ssh-keygen -t rsa -C <YOUR_NAME>
 ```
