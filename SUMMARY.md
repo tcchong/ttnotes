@@ -11,8 +11,6 @@
     * [Revealing module](revealing_module.md)
     * [Bookmarks](dp_bookmarks.md)
   * [React.js](reactjs.md)
-    * [\(X\) Stateless Function Components](stateless-function-components.md)
-    * [\(X\) Higher Order Components](higher-order-components.md)
     * [Bookmarks](bookmarks.md)
   * [Redux](redux.md)
   * [Call & Apply](call_&_apply.md)
