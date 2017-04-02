@@ -61,6 +61,12 @@ $ du -Sh | sort -rh | head -n <N>
 
 # List open file for specific port
 $ lsof -p <PORT> | wc -l
+
+# Split file by line
+# split -l <LINE_NUMBER> <FILE_NAME> <SPLITTED_FILE_NAME>
+# splitted file name will be <SPLITTED_FILE_NAME>aa <SPLITTED_FILE_NAME>ab in the following example
+$ split -l 200 filename splittedfilename
+
 ```
 
 ### SSH
