@@ -20,7 +20,6 @@
   * [Bookmarks](js_bookmarks.md)
 * [Unix / Linux](unix--linux.md)
   * [Commands](unix_commands.md)
-  * [\(X\) Shell Script](shell-script.md)
   * [zsh compinit](gcloud-zsh-compinit-insecure-directories.md)
   * [Nginx + Basic Auth](nginx-+-basic-auth.md)
 * [NoSQL](nosql.md)
