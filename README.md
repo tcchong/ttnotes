@@ -1,4 +1,4 @@
-# Note
+# Introduction
 
 Migrating from Evernote \(Work in Progress\)
 
