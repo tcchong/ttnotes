@@ -1,4 +1,4 @@
-* \[Frequently used commands\]\(./unix\_commands.md\)
+* [Frequently used commands](/unix_commands.md)
 
 
 
