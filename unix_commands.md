@@ -9,9 +9,10 @@ Add user with custom shell and comment
 * `useradd <USER_NAME>`
 * -s=User login shell
 * -c=Comment
-  ```
-  $ useradd testuser -s /bin/sh -c "Some Comment"
-  ```
+
+```
+$ useradd testuser -s /bin/sh -c "Some Comment"
+```
 
 Change user shell
 
@@ -57,6 +58,7 @@ Modify access permissions
 * +=add permission, -=remove permission
 * Use comma to separate the multiple permission
 * `chmod <OPTIONS> <MODE> <FILE>`
+
 ```
 $ chmod u+r,g+x filename
 ```
@@ -101,37 +103,47 @@ $ ssh-keygen -t rsa -C <YOUR_NAME>
 
 ### Untagged
 
+Allow sudo command
+- modify sshd_config and reload sshd service
+
 ```
-# Allow sudo command
-# 1. Modify sshd_config
 $ sudo vim /etc/ssh/sshd_config
 ## File: /etc/ssh/sshd_config
 ...
 PasswrodAuthentication yes
 ...
-# 2. Reload sshd service
+
+# Reload sshd service
 $ sudo service sshd reload
+```
 
-
-# Finding pid with specific port
+Finding pid with specific port
+```
 $ sudo lsof -i :80 | grep LISTEN
+```
 
-
-# Free memory
+Free memory
+```
 $ free && sync && echo 3 > /proc/sys/vm/drop_caches && free
+```
 
-
-# Merge config file
+Merge config file
+```
 $ cat /<DIR>/* > /tmp/all.conf
+```
 
-
-# Find out linux distribution name and vesion
+Find out linux distribution name and vesion
+```
 $ cat /etc/*-release
+```
 
-# Generate random string with length
+Generate random string with length
+```
 $ openssl rand -hex <LENGTH>
+```
 
-# Retrieve filename from file/directory
+Retrieve filename from file/directory
+```
 $ for i in $(ls file/*.mp4); do echo $(basename $i .mp4); done
 $ for i in $(cat filename); do echo $(basename $i .mp4); done
 ```
