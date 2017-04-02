@@ -1,7 +1,8 @@
 # Docker
+
 > Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.
 >
-> https://www.docker.com/
+> [https://www.docker.com/](https://www.docker.com/)
 
 ### docker commands
 
@@ -15,17 +16,20 @@ $ docker exec -it -u root <CONTAINER_ID_OR_NAME> /bin/bash
 # commit
 $ docker commit <CONTAINER_ID> <NAME>
 
-# remove untagged images
+# remove untagged/dangling images
 $ docker rmi $(docker images -q --filter "dangling=true")
+$ docker images -q -f dangling=true | xargs docker rmi
 
 # copy file from host to container
 $ docker cp <CONTAINER_NAME>:<FILE_DIR> <HOST_FILE_DIR>
+
 ```
 
 ### docker-compose
-> Compose is a tool for defining and running multi-container Docker applications. 
+
+> Compose is a tool for defining and running multi-container Docker applications.
 >
-> https://docs.docker.com/compose/overview/
+> [https://docs.docker.com/compose/overview/](https://docs.docker.com/compose/overview/)
 
 ```
 # Configure your docker-compose.yml
@@ -55,17 +59,16 @@ yourapp:
 ```
 
 ### docker-machine
+
 > Docker Machine is a tool that lets you install Docker Engine on virtual hosts, and manage the hosts withdocker-machine commands.
 >
-> https://docs.docker.com/machine/overview/
-
-
+> [https://docs.docker.com/machine/overview/](https://docs.docker.com/machine/overview/)
 
 ### docker-swarm
 
-
-
-
-
 # Reference
-- http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet/
+
+* [http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet/](http://blog.jez.io/2015/07/12/docker-tips-and-cheatsheet/)
+
+
+
