@@ -5,28 +5,33 @@ Some of the most frequently used UNIX / Linux commands.
 ### User
 
 Add user with custom shell and comment
-- `useradd <USER_NAME>`
-- -s=User login shell
-- -c=Comment
-```
-$ useradd testuser -s /bin/sh -c "Some Comment"
-```
+
+* `useradd <USER_NAME>`
+* -s=User login shell
+* -c=Comment
+  ```
+  $ useradd testuser -s /bin/sh -c "Some Comment"
+  ```
 
 Change user shell
+
 ```
 $ chsh -s /bin/bash <USERNAME>
 ```
 
 List user
+
 ```
 $ cat /etc/passwd
 ```
 
 Add user to wheel group
+
 ```
 $ sudo usermod -G wheel <USER_NAME>
 
 # OR modify the following file
+
 $ sudo vim /etc/group
 ## File: /etc/group
 ...
@@ -36,20 +41,22 @@ wheel:*:0:root,<USER_NAME>
 
 ### Permission/Access Control
 
-
 Modify directory owner
-- Use -R(recursive) to include files in directory
-- `chown <USER_NAME>:<GROUP_NAME> <DIRECTORY>`
+
+* Use -R\(recursive\) to include files in directory
+* `chown <USER_NAME>:<GROUP_NAME> <DIRECTORY>`
+
 ```
 $ chown -R testuser:testgroup dirname
 ```
 
 Modify access permissions
-- u=user, g=group, o=others
-- r=read, w=write, x=execute
-- +=add permission, -=remove permission
-- Use comma to separate the multiple permission
-- `chmod <OPTIONS> <MODE> <FILE>`
+
+* u=user, g=group, o=others
+* r=read, w=write, x=execute
+* +=add permission, -=remove permission
+* Use comma to separate the multiple permission
+* `chmod <OPTIONS> <MODE> <FILE>`
 ```
 $ chmod u+r,g+x filename
 ```
