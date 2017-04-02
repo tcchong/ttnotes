@@ -72,17 +72,18 @@ $ lsof -p <PORT> | wc -l
 
 Split file by line
 
-- split <OPTIONS> <LINE_NUMBER> <FILE_NAME> <SPLITTED_FILE_NAME>
+- `split <OPTIONS> <LINE_NUMBER> <FILE_NAME> <SPLITTED_FILE_NAME>`
 - -l=linebumber, -b=bytes
-- splitted file name will be <SPLITTED_FILE_NAME>aa <SPLITTED_FILE_NAME>ab in the following example
+- splitted file name will be `<SPLITTED_FILE_NAME>aa` `<SPLITTED_FILE_NAME>ab` in the following example
+
 ```
 $ split -l 200 filename splittedfilename
 ```
 
 ### SSH
 
+Generate ssh key
 ```
-# generate ssh key
 $ ssh-keygen -t rsa -C <YOUR_NAME>
 ```
 
