@@ -32,7 +32,7 @@ wheel:*:0:root,<USER_NAME>
 ...
 ```
 
-### Permission or Access Control
+### Permission/Access Control
 
 ```
 # Modify directory owner
