@@ -1,6 +1,6 @@
 # Introduction
 
-Migrating notes from Evernote
+Notes migration from Evernote
 
 ### Tools
 
