@@ -20,6 +20,7 @@
   * [Frequently used commands](unix_commands.md)
   * [zsh compinit](gcloud-zsh-compinit-insecure-directories.md)
   * [Nginx + Basic Auth](nginx-+-basic-auth.md)
+  * [vim](vim.md)
 * [NoSQL](nosql.md)
   * [MongoDB](mongodb.md)
     * [Install on Mac](install-on-mac.md)
