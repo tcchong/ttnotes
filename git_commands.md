@@ -11,6 +11,7 @@ $ git branch
 # git branch -d <BRANCH>
 $ git branch -d dev
 $ git branch -m <NEW_NAME>
+$ git branch --no-merge <BRANCH>
 
 # add to stage
 # git add <FILE>
