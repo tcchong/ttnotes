@@ -11,8 +11,8 @@
 
 * [http://mp.weixin.qq.com/s/OlFKpcnBOgcPZmjvdzCCiA](http://mp.weixin.qq.com/s/OlFKpcnBOgcPZmjvdzCCiA)
 * [https://www.gnu.org/software/screen/](https://www.gnu.org/software/screen/) 
-
-
+* http://aperiodic.net/screen/quick\_reference
+* http://blog.phymata.com/2017/05/07/docker-for-mac-configuration-persistence/
 
 
 
