@@ -7,14 +7,12 @@ $ npm install -g react-native
 $ react-native init <APP_NAME>
 ```
 
-Setup for Android 
+Setup for Android
 
 ```
 # without Android Studio
 $ brew cask install java android-sdk
 ```
-
-
 
 AVD
 
