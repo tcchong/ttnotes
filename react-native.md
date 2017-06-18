@@ -7,11 +7,16 @@ $ npm install -g react-native
 $ react-native init <APP_NAME>
 ```
 
-Setup for Android
+## Setup for Android
+
+Prerequisite
 
 ```
-# without Android Studio
+# install Java and android-sdk with brew cask
 $ brew cask install java android-sdk
+
+# export ANDROID_HOME, it will be /usr/local/share/android-sdk if install with brew cask
+$ echo "export ANDROID_HOME=/usr/local/share/android-sdk" >> ~/.zshrc # OR ~/.bashrc
 ```
 
 AVD
