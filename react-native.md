@@ -28,6 +28,7 @@ CMD + M -> Open Menu
 # Launch emulator
 $ cd $ANDROID_HOME/tools
 $ ./emulator -avd <AVD_DEVICE>
+$ ./emulator @<AVD_DEVICE>
 ```
 
 
