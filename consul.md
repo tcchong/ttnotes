@@ -18,10 +18,6 @@ Update existing key
 $ consul kv put <PATH>/<KEY>
 ```
 
-
-
-
-
 ## Consul Template
 
 split value and loop
@@ -31,7 +27,7 @@ split value and loop
 {{ $hello := key(print "somepath/hello") | split "," }}
 
 {{ range $hello }}
-Show me: {{.}}{{end}}
+Show me {{.}}{{end}}
 # Output
 # Show me foo
 # Show me bar
