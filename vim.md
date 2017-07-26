@@ -13,5 +13,11 @@ show line number
 :set nu
 ```
 
+replace all
+
+```
+:%s/foo/bar/g
+```
+
 
 
