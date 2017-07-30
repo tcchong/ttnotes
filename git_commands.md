@@ -23,8 +23,6 @@ $ git merge
 $ git rebase
 ```
 
-
-
 ```
 $ git diff
 ```
@@ -91,11 +89,9 @@ remove remote branch
 $ git push <REMOTE> --delete <BRANCH>
 ```
 
-
-
 ### Commit
 
-make a commit 
+make a commit
 
 ```sh
 $ git commit -m "<MESSAGE>"
@@ -133,8 +129,6 @@ checkout and track specific remote branch
 $ git checkout --track <REMOTE>/<BRANCH>
 ```
 
-
-
 ### Stash
 
 save local changes to stash
@@ -169,8 +163,6 @@ remove from stash list
 $ git stash drop <INDEX>
 ```
 
-
-
 ### Push
 
 set upstream for git pull / status
@@ -200,8 +192,4 @@ $ git log --stat
 ```
 
 
-
-### Reset
-
-remove file from staging
 
