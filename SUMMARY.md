@@ -27,7 +27,6 @@
     * [Install on Mac](install-on-mac.md)
     * [Bookmarks](mongodb_bookmarks.md)
 * [Git](git.md)
-  * [Frequently used commands](git_commands.md)
 * [Others](others.md)
   * [MQTT](mqtt.md)
   * [Apache Thrift](apache_thrift.md)
