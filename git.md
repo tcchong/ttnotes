@@ -193,8 +193,6 @@ compare between commit
 $ git log --stat
 ```
 
-
-
 ## Ref
 
 * [https://feeding.cloud.geek.nz/posts/querying-deleted-content-in-git/](https://feeding.cloud.geek.nz/posts/querying-deleted-content-in-git/)
