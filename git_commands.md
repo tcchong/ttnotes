@@ -1,89 +1,194 @@
 # Frequently used commands
 
-```sh
-$ git clone
-$ git log
+clone a repository
+
+```
+$ git clone <URL>
+```
+
+show status
+
+```
 $ git status
+```
+
+add changes to stage
+
+```
+$ git add <PATH>
+```
+
+```
+$ git merge
+$ git rebase
+```
+
+```
 $ git diff
+```
 
+### Branch
+
+create  new branch
+
+```
+$ git checkout -b <BRANCH>
+```
+
+checkout remote branch
+
+```
+$ git checkout -b <LOCAL_BRANCH> <REMOTE_BRANCH>
+```
+
+switch to branch
+
+```
+$ git checkout <BRANCH>
+```
+
+list branches
+
+```
 $ git branch
-# delete local branch
-# git branch -d <BRANCH>
-$ git branch -d dev
-$ git branch -m <NEW_NAME>
-$ git branch --no-merge <BRANCH>
+```
 
-# add to stage
-# git add <FILE>
-$ git add .
+list branches that are merged / not merged
 
-# add to repository
-# git commit -m "<MESSAGE>"
-# git commit -am "<MESSAGE>"
-$ git commit -m "first commit"
+```
+$ git branch --merged / --no-merged
+```
 
-# add to remote
-# git push -u <REMOTE> <REF>
-$ git push -u origin master
+delete fully merged branch
 
-# delete remote branch
-$ git push origin --delete <BRANCH_NAME>
+```
+$ git branch -d <BRANCH>
+```
 
-# git rebase <BRANCH>
-$ git rebase master
+delete branch even if not merged
 
-# git merge <BRANCH>
-$ git merge dev
+```
+$ git branch -D <BRANCH>
+```
 
-# changing branch
-# git checkout <BRANCH>
-$ git checkout dev
+rename or move a branch
 
-# discard change
-# git checkout -- <FILE>
-$ git checkout -- .
+```
+$ git branch -m <NAME>
+```
 
-# checkout to a new branch
-# git checkout -b <BRANCH>
-$ git checkout -b new-branch
+remove branches that match the codition
 
-# checkout remote branch
-# git checkout -b <LOCAL_BRANCH> <REMOTE_BRANCH>
-$ git checkout -b dev-function origin/dev-function
+    $ git branch -D `git branch | grep -E 'feature/some-.*-test'`
+    # feature/some-foo-test
+    # feature/some-bar-test
 
-# fetch specific branch
-# git fetch <REMOTE> <BRANCH>
-$ git fetch origin dev
+remove remote branch
 
-$ git remote add origin https://github.com/tcchong/test.git
+```
+$ git push <REMOTE> --delete <BRANCH>
+```
 
-# edit remote url
-# git remote set-url <REMOTE> <URL>
-$ git remote set-url origin git://xxxxxx.git
+### Commit
 
-# OR modify with text editor
-$ vim .git/config
+make a commit
 
-# remove file from staging area
-$ git reset HEAD <FILE>
+```sh
+$ git commit -m "<MESSAGE>"
+```
 
-$ git stash 
-$ git stash list
-$ git stash save "TMP"
-$ git stash pop
-$ git stash drop stash@{0}
+automatically stage files that have been modified and deleted
 
-# fetch remote branch
+```sh
+$ git commit -am "<MESSAGE>"
+```
+
+### Remote
+
+add remote
+
+```
+$ git remote add <NAME> <GIT_URL>
+```
+
+modify remote
+
+```
+$ git remote set-url <NAME> <GIT_URL>
+```
+
+fetch all remote branches
+
+```
 $ git fetch --all
+```
+
+checkout and track specific remote branch
+
+```
 $ git checkout --track <REMOTE>/<BRANCH>
+```
 
+### Stash
+
+save local changes to stash
+
+```
+$ git stash save
+```
+
+list local stash
+
+```sh
+$ git stash list
+```
+
+remove from stash list and apply to current woring tree state
+
+```sh
+$ git stash pop
+$ git stash pop <INDEX>
+```
+
+apply to current working tree state but do not remove from stash list
+
+```
+$ git stash apply
+$ git stash apply <INDEX>
+```
+
+remove from stash list
+
+```sh
+$ git stash drop <INDEX>
+```
+
+### Push
+
+set upstream for git pull / status
+
+```
+$ git push --set-upstream <REMOTE_BRANCH> <LOCAL_BRANCH>
+```
+
+set upstream for git pull / status to current branch
+
+```
+$ git push --set-upstream origin $(git_current_branch)
+```
+
+### Log
+
+find specific text
+
+```
 $ git log --oneline -S'<TEXT_TO_SEARCH>' <FILE>
+```
 
+compare between commit
 
-# remove branch fulfill 
-# feature/some-abc-test
-# feature/some-def-test
-$ git branch -D `git branch | grep -E 'feature/some-.*-test'`
+```
+$ git log --stat
 ```
 
 
