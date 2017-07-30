@@ -45,7 +45,6 @@
 * [Sublime Text](sublime-text.md)
 * [ELK](elk.md)
 * [Regular Expression](regular-expression.md)
-* [Memo](useful-tools-memo.md)
 * [React Native](react-native.md)
 * [GraphQL](graphql.md)
 * [Consul](consul.md)
