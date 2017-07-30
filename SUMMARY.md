@@ -23,8 +23,6 @@
   * [Nginx + Basic Auth](nginx-+-basic-auth.md)
   * [vim](vim.md)
 * [MongoDB](mongodb.md)
-  * [Install on Mac](install-on-mac.md)
-  * [Bookmarks](mongodb_bookmarks.md)
 * [Git](git.md)
 * [Others](others.md)
   * [MQTT](mqtt.md)
