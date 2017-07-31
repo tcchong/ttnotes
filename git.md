@@ -29,6 +29,12 @@ $ git rebase
 $ git diff
 ```
 
+summarize diff
+
+```
+$ git diff --stat
+```
+
 ### Branch
 
 create  new branch
