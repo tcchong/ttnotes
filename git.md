@@ -25,6 +25,8 @@ $ git merge
 $ git rebase
 ```
 
+### Diff
+
 ```
 $ git diff
 ```
