@@ -1,5 +1,43 @@
 # Nginx
 
+### location
+
+```
+location / {
+    # matched if regular expressions don't find a match
+}
+```
+
+exact match
+
+```
+location = 
+```
+
+case sensitive matching
+
+```
+location ~ 
+```
+
+case insensitive matching
+
+```
+location ~*
+```
+
+the longest matching prefix location has the ^~ modifier will cause nginx to stop search and choose this location
+
+```
+location ^~
+```
+
+request end with jpg or png
+
+```
+location ~* \.(jpg|png)$
+```
+
 ### root vs alias
 
 ```
@@ -44,11 +82,9 @@ location @not_found {
 }
 ```
 
-
-
 ## Ref
 
-* http://nginx.org/en/docs/http/ngx\_http\_core\_module.html
+* [http://nginx.org/en/docs/http/ngx\_http\_core\_module.html](http://nginx.org/en/docs/http/ngx_http_core_module.html)
 
 
 
