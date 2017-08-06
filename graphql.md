@@ -50,10 +50,13 @@ type Course {
 }
 
 type Lecture {
+    course: Course!
     title: String!
     content: String!
 }
 ```
+
+* follow the type to query data
 
 ## GraphQL CRUD
 
