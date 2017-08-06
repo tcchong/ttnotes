@@ -1,6 +1,6 @@
 # GraphQL - A query language for APIs
 
-> GraphQL was developed to cope with the need for more flexibility and efficiency in client-server communication. 
+> GraphQL was developed to cope with the need for more flexibility and efficiency in client-server communication.
 >
 > [https://www.howtographql.com](https://www.howtographql.com)
 
