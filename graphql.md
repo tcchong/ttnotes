@@ -1,8 +1,14 @@
 # GraphQL - A query language for APIs
 
-> GraphQL was developed to cope with the need for more flexibility and efficiency in client-server communication
+> GraphQL was developed to cope with the need for more flexibility and efficiency in client-server communication. 
+>
+> [https://www.howtographql.com](https://www.howtographql.com)
 
-> “Think in graphs, not endpoints. [Lessons From 4 Years of GraphQL](http://www.graphql.com/articles/4-years-of-graphql-lee-byron) by [Lee Byron](https://twitter.com/leeb), GraphQL Co-Inventor.
+
+
+> “Think in graphs, not endpoints."
+>
+> [Lessons From 4 Years of GraphQL](http://www.graphql.com/articles/4-years-of-graphql-lee-byron) by [Lee Byron](https://twitter.com/leeb), GraphQL Co-Inventor.
 
 ## What is GraphQL
 
@@ -24,8 +30,6 @@
 
   * frontend teams can mock test their applications by mocking the required data structures
 
-
-
 ## Schema Definition Language
 
 * syntax for writing schemas for type system of GraphQL
@@ -43,8 +47,6 @@ type Lecture {
     content: String!
 }
 ```
-
-
 
 ## GraphQL CRUD
 
@@ -75,15 +77,9 @@ type Lecture {
 
 * event-based realtime functionality
 
-
-
-
-
 ## Reference
 
 [https://www.howtographql.com](https://www.howtographql.com)
 
 [https://www.sitepoint.com/silver-bullet-n1-problem/](https://www.sitepoint.com/silver-bullet-n1-problem/)
-
-
 
