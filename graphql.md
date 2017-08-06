@@ -78,7 +78,7 @@ type Lecture {
 
 ### Mutation
 
-* 3 kinds of mutation
+* 3 kinds of mutations
   * creating new data
   * updating existing data
   * deleting existing data
