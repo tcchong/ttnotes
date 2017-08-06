@@ -3,9 +3,7 @@
 > GraphQL was developed to cope with the need for more flexibility and efficiency in client-server communication.
 >
 > [https://www.howtographql.com](https://www.howtographql.com)
-
-
-
+>
 > “Think in graphs, not endpoints."
 >
 > [Lessons From 4 Years of GraphQL](http://www.graphql.com/articles/4-years-of-graphql-lee-byron) by [Lee Byron](https://twitter.com/leeb), GraphQL Co-Inventor.
@@ -36,6 +34,15 @@
 
 ```
 # ! means required
+type Course {
+    price: Int!
+    title: String!
+}
+```
+
+* relation
+
+```
 type Course {
     price: Int!
     title: String!
