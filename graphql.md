@@ -86,6 +86,13 @@ type Lecture {
 ### Subscription
 
 * event-based realtime functionality
+* hold steady conncetion with server
+
+
+
+## GraphQL Schema
+
+* represents contract between client-server
 
 ## Reference
 
