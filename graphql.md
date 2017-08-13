@@ -6,6 +6,8 @@
 >
 > “Think in graphs, not endpoints."
 >
+> "Describe the data, not the view."
+>
 > [Lessons From 4 Years of GraphQL](http://www.graphql.com/articles/4-years-of-graphql-lee-byron) by [Lee Byron](https://twitter.com/leeb), GraphQL Co-Inventor.
 
 ## What is GraphQL
@@ -13,6 +15,18 @@
 * API standard
 * declarative data fetching - client can specify exactly what data it needs
 * single endpoint
+
+## Design Principles
+
+* **Hierarchical**
+
+* **Product‐centric**
+
+* **Strong‐typing**
+
+* **Client‐specified queries**
+
+* **Introspective**
 
 ## Why GraphQL
 
@@ -88,8 +102,6 @@ type Lecture {
 * event-based realtime functionality
 * hold steady conncetion with server
 
-
-
 ## GraphQL Schema
 
 * represents contract between client-server
@@ -99,4 +111,10 @@ type Lecture {
 [https://www.howtographql.com](https://www.howtographql.com)
 
 [https://www.sitepoint.com/silver-bullet-n1-problem/](https://www.sitepoint.com/silver-bullet-n1-problem/)
+
+[http://facebook.github.io/graphql](http://facebook.github.io/graphql)
+
+[https://www.graphql.com/articles/4-years-of-graphql-lee-byron](https://www.graphql.com/articles/4-years-of-graphql-lee-byron)
+
+
 
