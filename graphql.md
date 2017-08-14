@@ -72,7 +72,7 @@ type Lecture {
 
 * follow the type to query data
 
-## GraphQL CRUD
+## GraphQL Operation
 
 ### Query
 
@@ -115,6 +115,4 @@ type Lecture {
 [http://facebook.github.io/graphql](http://facebook.github.io/graphql)
 
 [https://www.graphql.com/articles/4-years-of-graphql-lee-byron](https://www.graphql.com/articles/4-years-of-graphql-lee-byron)
-
-
 
