@@ -12,12 +12,8 @@ login with credential
 $ docker login -u _json_key -p "$(cat /keypath/credential.json)" https://gcr.io
 ```
 
-
-
 ```
-
-
-# login to shell
+login to shell
 $ docker exec -it <CONTAINER_ID_OR_NAME> /bin/bash
 
 # login with root
