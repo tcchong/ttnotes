@@ -6,7 +6,17 @@
 
 ### docker commands
 
+login with credential
+
 ```
+$ docker login -u _json_key -p "$(cat /keypath/credential.json)" https://gcr.io
+```
+
+
+
+```
+
+
 # login to shell
 $ docker exec -it <CONTAINER_ID_OR_NAME> /bin/bash
 
@@ -22,7 +32,6 @@ $ docker images -q -f dangling=true | xargs docker rmi
 
 # copy file from host to container
 $ docker cp <CONTAINER_NAME>:<FILE_DIR> <HOST_FILE_DIR>
-
 ```
 
 ### docker-compose
