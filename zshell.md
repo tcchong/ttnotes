@@ -1,4 +1,4 @@
-# zshell
+# zsh
 
 map ⌥ + ← / → to work in iTerm2 for Mac
 
