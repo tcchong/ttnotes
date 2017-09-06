@@ -21,7 +21,6 @@
   * [Frequently used commands](unix_commands.md)
   * [Nginx + Basic Auth](nginx-+-basic-auth.md)
   * [vim](vim.md)
-  * [zsh](zshell.md)
 * [Docker](docker.md)
   * [Install on Centos 6](install-on-centos-6.md)
   * [Bookmarks](docker_bookmarks.md)
@@ -45,4 +44,5 @@
   * [Stack](stack.md)
   * [Queue](queue.md)
 * [Nginx](nginx.md)
+* [zsh](zshell.md)
 
