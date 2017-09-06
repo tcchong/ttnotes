@@ -22,6 +22,7 @@
   * [zsh compinit](gcloud-zsh-compinit-insecure-directories.md)
   * [Nginx + Basic Auth](nginx-+-basic-auth.md)
   * [vim](vim.md)
+  * [zshell](zshell.md)
 * [Docker](docker.md)
   * [Install on Centos 6](install-on-centos-6.md)
   * [Bookmarks](docker_bookmarks.md)
