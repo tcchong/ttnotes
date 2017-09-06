@@ -19,7 +19,6 @@
   * [Bookmarks](js_bookmarks.md)
 * [Unix / Linux](unix--linux.md)
   * [Frequently used commands](unix_commands.md)
-  * [zsh compinit](gcloud-zsh-compinit-insecure-directories.md)
   * [Nginx + Basic Auth](nginx-+-basic-auth.md)
   * [vim](vim.md)
   * [zsh](zshell.md)
