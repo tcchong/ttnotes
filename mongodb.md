@@ -5,14 +5,18 @@
 * storage engine: MMAPv1
   * database-level lock
 
-
-
 ### v3.0
 
 * storage engine - MMAPv1
   * collection-level lock
 * storage engine - WiredTiger
   * document-level lock
+
+
+
+* set db profiling level 1 to check slow query \(&gt; 100ms\)
+
+## 
 
 ## Installation on Mac
 
