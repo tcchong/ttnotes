@@ -14,9 +14,11 @@
 
 
 
+### Others
+
 * set db profiling level 1 to check slow query \(&gt; 100ms\)
 
-## 
+
 
 ## Installation on Mac
 
