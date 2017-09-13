@@ -29,8 +29,6 @@ v3.0
 * choose a good shard key
 * increased complexity in infrastructure and maintenance for the deployment
 
-
-
 ## Installation on Mac
 
 ```
@@ -49,6 +47,8 @@ $ mongod --fork --logpath <LOG_PATH> --logappend --dbpath <DB_PATH>
 # Restore DB to localhost
 $ mongorestore -d <DB_NAME> <LOCAL_DIR>
 ```
+
+
 
 ### Reference
 
