@@ -14,27 +14,23 @@ v3.0
 * storage engine - WiredTiger
   * document-level lock
 
-
-
 ### Logging
 
 * set db profiling level 1 to check slow query \(&gt; 100ms\)
-
-
 
 ### Replica set
 
 * increased data availability
 * maintain additional copies for dedicated purposes \(disaster recovery, reporting, or backup\)
 
-
-
 ### Sharding
 
 * horizontal scaling for very large data set or high throughput operations
 * choose a good shard key
 * increased complexity in infrastructure and maintenance for the deployment
-* 
+
+
+
 ## Installation on Mac
 
 ```
