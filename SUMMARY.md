@@ -1,24 +1,32 @@
 # Summary
 
-### Intro
+## Intro
+
 * [Introduction](README.md)
-----
 * [Memo](useful-tools-memo.md)
+
+## JavaScript
+
+* [Node.js](nodejs.md)
+  * [Modules](modules.md)
+  * [NPM](npm.md)
+  * [Bookmarks](nodejs_bookmarks.md)
+  * [Testing](testing.md)
+  * [Yarn](yarn.md)
+* [Design patterns](design-patterns.md)
+  * [Revealing module](revealing_module.md)
+  * [Bookmarks](dp_bookmarks.md)
+* [React.js](reactjs.md)
+  * [Bookmarks](bookmarks.md)
+* [Redux](redux.md)
+* [Call & Apply](call_&_apply.md)
+* [Bookmarks](js_bookmarks.md)
+
+## Unix
+
+
 * [JavaScript](javascript.md)
-  * [Node.js](nodejs.md)
-    * [Modules](modules.md)
-    * [NPM](npm.md)
-    * [Bookmarks](nodejs_bookmarks.md)
-    * [Testing](testing.md)
-    * [Yarn](yarn.md)
-  * [Design patterns](design-patterns.md)
-    * [Revealing module](revealing_module.md)
-    * [Bookmarks](dp_bookmarks.md)
-  * [React.js](reactjs.md)
-    * [Bookmarks](bookmarks.md)
-  * [Redux](redux.md)
-  * [Call & Apply](call_&_apply.md)
-  * [Bookmarks](js_bookmarks.md)
+  
 * [Unix / Linux](unix--linux.md)
   * [Frequently used commands](unix_commands.md)
   * [Nginx + Basic Auth](nginx-+-basic-auth.md)
@@ -48,6 +56,8 @@
   * [Union Find](union-find.md)
 * [Nginx](nginx.md)
 * [zsh](zshell.md)
+
+## 
 
 
 
