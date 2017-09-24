@@ -43,6 +43,7 @@
   * [Big O notation](big-o.md)
   * [Stack](stack.md)
   * [Queue](queue.md)
+  * [Quick Find](quick-find.md)
 * [Nginx](nginx.md)
 * [zsh](zshell.md)
 
