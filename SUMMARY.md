@@ -40,7 +40,7 @@
 * [Frequently used commands](unix_commands.md)
 * [vim](vim.md)
 
-## Data Structures
+## Data Structures & Algorithm
 
 * [Big O notation](big-o.md)
 * [Stack](stack.md)
