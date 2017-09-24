@@ -54,6 +54,7 @@ class QuickUnion {
   }
 
   _root(index) {
+      // Get the root of tree
       while (index !== this.list[index]) {
         index = this.list[index];
     }
@@ -83,8 +84,6 @@ qu.union(7, 2); // [0, 1, 1, 8, 3, 0, 5, 1, 8, 8]
 qu.union(6, 1); // [1, 1, 1, 8, 3, 0, 5, 1, 8, 8]
 qu.union(7, 3); // [1, 8, 1, 8, 3, 0, 5, 1, 8, 8]
 ```
-
-
 
 ### Reference
 
