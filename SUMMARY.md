@@ -29,6 +29,14 @@
 * [Nginx + Basic Auth](nginx-+-basic-auth.md)
 * [vim](vim.md)
 
+## Data Structures
+
+* [Data Structures](data-structure.md)
+* [Big O notation](big-o.md)
+* [Stack](stack.md)
+* [Queue](queue.md)
+* [Union Find](union-find.md)
+
 ## Others
 
 * [Docker](docker.md)
@@ -49,11 +57,7 @@
   * [Live Stream server - Nginx + RTMP](live-stream-server---nginx--rtmp.md)
   * [JWT](jwt.md)
   * [Nginx + Letsencrypt as a SSL Server](nginx--letsencrypt-as-a-ssl-server.md)
-* [Data Structures](data-structure.md)
-  * [Big O notation](big-o.md)
-  * [Stack](stack.md)
-  * [Queue](queue.md)
-  * [Union Find](union-find.md)
+
 * [Nginx](nginx.md)
 * [zsh](zshell.md)
 
