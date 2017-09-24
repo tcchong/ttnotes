@@ -53,8 +53,6 @@
 * [Queue](queue.md)
 * [Union Find](union-find.md)
 
-
-
 ## Tools
 
 * [Git](git.md)
