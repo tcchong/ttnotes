@@ -7,6 +7,7 @@
 
 ## JavaScript
 
+* [JavaScript](javascript.md)
 * [Node.js](nodejs.md)
   * [Modules](modules.md)
   * [NPM](npm.md)
@@ -25,7 +26,7 @@
 ## Unix
 
 
-* [JavaScript](javascript.md)
+
   
 * [Unix / Linux](unix--linux.md)
   * [Frequently used commands](unix_commands.md)
