@@ -53,7 +53,7 @@ if (true) {
 console.log(test); // SyntaxError: ......
 ```
 
-### Call & Applu
+### Call & Apply
 
 > Both call\(\) & apply\(\) methods calls a function with a given `this` value, call\(\) accpet an argument list, apply\(\) acceps a single array of arguments
 
