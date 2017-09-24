@@ -1,4 +1,6 @@
-# Quick Find
+# Union Find
+
+### Quick Find
 
 ```js
 class QuickFind {
