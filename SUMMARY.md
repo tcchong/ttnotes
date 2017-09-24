@@ -25,13 +25,10 @@
 
 ## Unix
 
+* [Frequently used commands](unix_commands.md)
+* [Nginx + Basic Auth](nginx-+-basic-auth.md)
+* [vim](vim.md)
 
-
-  
-* [Unix / Linux](unix--linux.md)
-  * [Frequently used commands](unix_commands.md)
-  * [Nginx + Basic Auth](nginx-+-basic-auth.md)
-  * [vim](vim.md)
 * [Docker](docker.md)
   * [Install on Centos 6](install-on-centos-6.md)
   * [Bookmarks](docker_bookmarks.md)
