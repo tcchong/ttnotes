@@ -30,24 +30,19 @@
 ## JavaScript
 
 * [JavaScript](javascript.md)
-* [Design patterns](design-patterns.md)
-  * [Revealing module](revealing_module.md)
-  * [Bookmarks](dp_bookmarks.md)
 * [React.js](reactjs.md)
-  * [Bookmarks](bookmarks.md)
 * [Redux](redux.md)
+* [React Native](react-native.md)
 * [Call & Apply](call_&_apply.md)
 * [Bookmarks](js_bookmarks.md)
 
 ## Unix
 
 * [Frequently used commands](unix_commands.md)
-* [Nginx + Basic Auth](nginx-+-basic-auth.md)
 * [vim](vim.md)
 
 ## Data Structures
 
-* [Data Structures](data-structure.md)
 * [Big O notation](big-o.md)
 * [Stack](stack.md)
 * [Queue](queue.md)
@@ -62,6 +57,7 @@
 ## Others
 
 * [Regular Expression](regular-expression.md)
-* [React Native](react-native.md)
+
 * [Memo](useful-tools-memo.md)
 * [Others](others.md)
+
