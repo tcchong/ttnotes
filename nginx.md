@@ -82,8 +82,8 @@ location @not_found {
 }
 ```
 
-## Ref
-
+### Reference
+- https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-nginx-on-ubuntu-14-04
 * [http://nginx.org/en/docs/http/ngx\_http\_core\_module.html](http://nginx.org/en/docs/http/ngx_http_core_module.html)
 
 
