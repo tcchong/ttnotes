@@ -33,7 +33,6 @@
 * [React.js](reactjs.md)
 * [Redux](redux.md)
 * [React Native](react-native.md)
-* [Call & Apply](call_&_apply.md)
 * [Bookmarks](js_bookmarks.md)
 
 ## Unix
