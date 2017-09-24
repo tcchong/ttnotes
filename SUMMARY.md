@@ -8,12 +8,6 @@
 ## JavaScript
 
 * [JavaScript](javascript.md)
-* [Node.js](nodejs.md)
-  * [Modules](modules.md)
-  * [NPM](npm.md)
-  * [Bookmarks](nodejs_bookmarks.md)
-  * [Testing](testing.md)
-  * [Yarn](yarn.md)
 * [Design patterns](design-patterns.md)
   * [Revealing module](revealing_module.md)
   * [Bookmarks](dp_bookmarks.md)
@@ -39,12 +33,26 @@
 
 ## Back-end
 
+* [Node.js](nodejs.md)
+  * [Modules](modules.md)
+  * [NPM](npm.md)
+  * [Bookmarks](nodejs_bookmarks.md)
+  * [Testing](testing.md)
+  * [Yarn](yarn.md)
 * [Docker](docker.md)
   * [Install on Centos 6](install-on-centos-6.md)
   * [Bookmarks](docker_bookmarks.md)
 * [MongoDB](mongodb.md)
+* [JWT](jwt.md)
 * [GraphQL](graphql.md)
 * [Consul](consul.md)
+* [MQTT](mqtt.md)
+* [Apache Thrift](apache_thrift.md)
+* [CI / CD Reference](ci--cd-reference.md)
+* [Nginx](nginx.md)
+* [Live Stream server - Nginx + RTMP](live-stream-server---nginx--rtmp.md)
+* [Nginx + Letsencrypt as a SSL Server](nginx--letsencrypt-as-a-ssl-server.md)
+* [ELK](elk.md)
 
 ## Tools
 
@@ -54,19 +62,6 @@
 
 ## Others
 
-* [ELK](elk.md)
 * [Regular Expression](regular-expression.md)
 * [React Native](react-native.md)
 * [Others](others.md)
-  * [MQTT](mqtt.md)
-  * [Apache Thrift](apache_thrift.md)
-  * [CI / CD Reference](ci--cd-reference.md)
-  * [Live Stream server - Nginx + RTMP](live-stream-server---nginx--rtmp.md)
-  * [JWT](jwt.md)
-  * [Nginx + Letsencrypt as a SSL Server](nginx--letsencrypt-as-a-ssl-server.md)
-* [Nginx](nginx.md)
-
-
-
-
-
