@@ -29,7 +29,7 @@
 
 ## JavaScript
 
-* [JavaScript](javascript.md)
+* [Common](javascript.md)
 * [React.js](reactjs.md)
 * [Redux](redux.md)
 * [React Native](react-native.md)
