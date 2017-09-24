@@ -1,6 +1,12 @@
 # Union Find
 
+> Implement example from [algorithms course](https://www.coursera.org/learn/algorithms-part1) with JS
+
 ### Quick Find
+
+union: N
+
+find: 1
 
 ```js
 class QuickFind {
@@ -36,10 +42,6 @@ qf.union(1, 6);      // [0, 7, 7, 3, 4, 5, 7, 7, 8, 9]
 qf.connected(2, 7);  // true
 ```
 
-union: N
-
-find: 1
-
 ### Quick Union
 
 ```js
@@ -49,8 +51,6 @@ class QuickUnion {
     for (let i = 0;i < length; i++) {
         this.list[i] = i;
     }
-
-    console.log(this.list);
   }
 
   _root(index) {
@@ -62,8 +62,6 @@ class QuickUnion {
 
   union(p, q) {
     this.list[this._root(p)] = this._root(q);
-
-    console.log(this.list);
   }
 
   connected(p, q) {
@@ -87,4 +85,8 @@ qu.union(7, 3); // [1, 8, 1, 8, 3, 0, 5, 1, 8, 8]
 ```
 
 
+
+### Reference
+
+[https://www.coursera.org/learn/algorithms-part1](https://www.coursera.org/learn/algorithms-part1)
 
