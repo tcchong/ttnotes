@@ -14,15 +14,35 @@ show status
 $ git status
 ```
 
+```
+$ git merge
+$ git rebase
+```
+
+### Add
+
 add changes to stage
 
 ```
 $ git add <PATH>
 ```
 
+stage new, modified and deleted fileds
+
 ```
-$ git merge
-$ git rebase
+git add -A
+```
+
+stage new and modified files only
+
+```
+git add .
+```
+
+stage modified and deleted files only
+
+```
+$ git add -u
 ```
 
 ### Diff
