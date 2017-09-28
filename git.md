@@ -30,13 +30,15 @@ $ git add <PATH>
 stage new, modified and deleted fileds
 
 ```
-git add -A
+$ git add . (v2.x)
+$ git add -A
 ```
 
 stage new and modified files only
 
 ```
-git add .
+$ git add . (v1.x)
+$ git add --ignore-removal .
 ```
 
 stage modified and deleted files only
