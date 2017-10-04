@@ -48,21 +48,28 @@ qf.connected(2, 7);  // true
 class QuickUnion {
   constructor(length) {
     this.list = [];
-    for (let i = 0;i < length; i++) {
-        this.list[i] = i;
+    for (let i = 0; i < length; i++) {
+      this.list[i] = i;
     }
   }
 
   _root(index) {
-      // Get the root of tree
-      while (index !== this.list[index]) {
-        index = this.list[index];
+    // Get the root of tree
+    while (index !== this.list[index]) {
+      index = this.list[index];
     }
     return index;
   }
 
   union(p, q) {
-    this.list[this._root(p)] = this._root(q);
+    const rootP = this._root(p);
+    const rootQ = this._root(q);
+
+    if (rootP === rootQ) {
+      return;
+    }
+
+    this.list[rootP] = rootQ;
   }
 
   connected(p, q) {
@@ -76,8 +83,8 @@ qu.union(4, 3); // [0, 1, 2, 3, 3, 5, 6, 7, 8, 9]
 qu.union(3, 8); // [0, 1, 2, 8, 3, 5, 6, 7, 8, 9]
 qu.union(6, 5); // [0, 1, 2, 8, 3, 5, 5, 7, 8, 9]
 qu.union(9, 4); // [0, 1, 2, 8, 3, 5, 5, 7, 8, 8]
-console.log(qu.connected(8, 9)); // true
-console.log(qu.connected(5, 4)); // false
+qu.connected(8, 9); // true
+qu.connected(5, 4); // false
 qu.union(2, 1); // [0, 1, 1, 8, 3, 5, 5, 7, 8, 8]
 qu.union(5, 0); // [0, 1, 1, 8, 3, 0, 5, 7, 8, 8]
 qu.union(7, 2); // [0, 1, 1, 8, 3, 0, 5, 1, 8, 8]
