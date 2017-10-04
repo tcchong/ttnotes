@@ -72,9 +72,9 @@ class QuickUnion {
 
 const qu = new QuickUnion(10);
 
-qu.union(4, 3); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-qu.union(3, 8); // [0, 1, 2, 3, 3, 5, 6, 7, 8, 9]
-qu.union(6, 5); // [0, 1, 2, 8, 3, 5, 6, 7, 8, 9]
+qu.union(4, 3); // [0, 1, 2, 3, 3, 5, 6, 7, 8, 9]
+qu.union(3, 8); // [0, 1, 2, 8, 3, 5, 6, 7, 8, 9]
+qu.union(6, 5); // [0, 1, 2, 8, 3, 5, 5, 7, 8, 9]
 qu.union(9, 4); // [0, 1, 2, 8, 3, 5, 5, 7, 8, 8]
 console.log(qu.connected(8, 9)); // true
 console.log(qu.connected(5, 4)); // false
