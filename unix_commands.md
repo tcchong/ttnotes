@@ -93,6 +93,12 @@ Split file by line
 $ split -l 200 filename splittedfilename
 ```
 
+Sort output and print sizes in human readable form
+
+```
+$ ls -lSh
+```
+
 ### SSH
 
 Generate ssh key
@@ -104,7 +110,8 @@ $ ssh-keygen -t rsa -C <YOUR_NAME>
 ### Untagged
 
 Allow sudo command
-- modify sshd_config and reload sshd service
+
+* modify sshd\_config and reload sshd service
 
 ```
 $ sudo vim /etc/ssh/sshd_config
@@ -118,31 +125,37 @@ $ sudo service sshd reload
 ```
 
 Finding pid with specific port
+
 ```
 $ sudo lsof -i :80 | grep LISTEN
 ```
 
 Free memory
+
 ```
 $ free && sync && echo 3 > /proc/sys/vm/drop_caches && free
 ```
 
 Merge config file
+
 ```
 $ cat /<DIR>/* > /tmp/all.conf
 ```
 
 Find out linux distribution name and vesion
+
 ```
 $ cat /etc/*-release
 ```
 
 Generate random string with length
+
 ```
 $ openssl rand -hex <LENGTH>
 ```
 
 Retrieve filename from file/directory
+
 ```
 $ for i in $(ls file/*.mp4); do echo $(basename $i .mp4); done
 $ for i in $(cat filename); do echo $(basename $i .mp4); done
