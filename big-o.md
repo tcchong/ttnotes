@@ -1,16 +1,16 @@
 # Overview
 
-- Describe how closely a finite series approximates a gven function
-- Analyzing algorithms for efficiency in computer science
+* Describe how closely a finite series approximates a given function
+* Analyzing algorithms for efficiency in computer science
 
-f(n) = O(g(x))
-f(n) <= c * (g(n))
+f\(n\) = O\(g\(x\)\)  
+f\(n\) &lt;= c \* \(g\(n\)\)
 
-|Notation|Name|
-|---|---|
-|O(1)|constant|
-|O(N)|linear|
-|O(N^2)|quadratic|
+| Notation | Name |
+| --- | --- |
+| O\(1\) | constant |
+| O\(N\) | linear |
+| O\(N^2\) | quadratic |
 
 ```js
 // O(1)
@@ -37,4 +37,5 @@ function iterator(list) {
 
 # Reference
 
-https://en.wikipedia.org/wiki/Big_O_notation
+[https://en.wikipedia.org/wiki/Big\_O\_notation](https://en.wikipedia.org/wiki/Big_O_notation)
+

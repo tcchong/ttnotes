@@ -48,20 +48,28 @@ qf.connected(2, 7);  // true
 class QuickUnion {
   constructor(length) {
     this.list = [];
-    for (let i = 0;i < length; i++) {
-        this.list[i] = i;
+    for (let i = 0; i < length; i++) {
+      this.list[i] = i;
     }
   }
 
   _root(index) {
-      while (index !== this.list[index]) {
-        index = this.list[index];
+    // Get the root of tree
+    while (index !== this.list[index]) {
+      index = this.list[index];
     }
     return index;
   }
 
   union(p, q) {
-    this.list[this._root(p)] = this._root(q);
+    const rootP = this._root(p);
+    const rootQ = this._root(q);
+
+    if (rootP === rootQ) {
+      return;
+    }
+
+    this.list[rootP] = rootQ;
   }
 
   connected(p, q) {
@@ -71,12 +79,12 @@ class QuickUnion {
 
 const qu = new QuickUnion(10);
 
-qu.union(4, 3); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-qu.union(3, 8); // [0, 1, 2, 3, 3, 5, 6, 7, 8, 9]
-qu.union(6, 5); // [0, 1, 2, 8, 3, 5, 6, 7, 8, 9]
+qu.union(4, 3); // [0, 1, 2, 3, 3, 5, 6, 7, 8, 9]
+qu.union(3, 8); // [0, 1, 2, 8, 3, 5, 6, 7, 8, 9]
+qu.union(6, 5); // [0, 1, 2, 8, 3, 5, 5, 7, 8, 9]
 qu.union(9, 4); // [0, 1, 2, 8, 3, 5, 5, 7, 8, 8]
-console.log(qu.connected(8, 9)); // true
-console.log(qu.connected(5, 4)); // false
+qu.connected(8, 9); // true
+qu.connected(5, 4); // false
 qu.union(2, 1); // [0, 1, 1, 8, 3, 5, 5, 7, 8, 8]
 qu.union(5, 0); // [0, 1, 1, 8, 3, 0, 5, 7, 8, 8]
 qu.union(7, 2); // [0, 1, 1, 8, 3, 0, 5, 1, 8, 8]
@@ -84,7 +92,60 @@ qu.union(6, 1); // [1, 1, 1, 8, 3, 0, 5, 1, 8, 8]
 qu.union(7, 3); // [1, 8, 1, 8, 3, 0, 5, 1, 8, 8]
 ```
 
+### Weighted Quick Union
 
+```js
+class WeightedQuickUnion {
+  constructor(length) {
+    this.list = [];
+    this.size = [];
+    for (let i = 0; i < length; i++) {
+      this.list[i] = i;
+      this.size[i] = 1;
+    }
+  }
+
+  _root(index) {
+    // Get the root of tree
+    while (index !== this.list[index]) {
+      index = this.list[index];
+    }
+    return index;
+  }
+
+  union(p, q) {
+    const { size, list } = this;
+    const rootP = this._root(p);
+    const rootQ = this._root(q);
+
+    if (rootP === rootQ) {
+      return;
+    }
+
+    if (size[rootP] < size[rootQ]) {
+      list[rootP] = rootQ;
+      size[rootQ] += size[rootP];
+    } else {
+      list[rootQ] = rootP;
+      size[rootP] += size[rootQ];
+    }
+  }
+
+  connected(p, q) {
+    return this._root(p) === this._root(q);
+  }
+}
+
+const wqu = new WeightedQuickUnion(10);
+
+wqu.union(4, 3); // [0, 1, 2, 4, 4, 5, 6, 7, 8, 9]
+wqu.union(3, 8); // [0, 1, 2, 4, 4, 5, 6, 7, 4, 9]
+wqu.union(6, 5); // [0, 1, 2, 4, 4, 6, 6, 7, 4, 9]
+wqu.union(6, 8); // [0, 1, 2, 4, 4, 6, 4, 7, 4, 9]
+wqu.connected(4, 5); // true
+```
+
+### 
 
 ### Reference
 
