@@ -223,6 +223,12 @@ compare between commit
 $ git log --stat
 ```
 
+## Bisect
+
+* https://git-scm.com/book/zh-tw/v1/Git-%E5%B7%A5%E5%85%B7-%E4%BD%BF%E7%94%A8-Git-%E5%81%9A-Debug
+
+## 
+
 ## Ref
 
 * [https://feeding.cloud.geek.nz/posts/querying-deleted-content-in-git/](https://feeding.cloud.geek.nz/posts/querying-deleted-content-in-git/)
