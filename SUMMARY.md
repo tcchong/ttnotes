@@ -12,6 +12,7 @@
   * [Bookmarks](nodejs_bookmarks.md)
   * [Testing](testing.md)
   * [Yarn](yarn.md)
+  * [Custom Error](custom-error.md)
 * [Docker](docker.md)
   * [Install on Centos 6](install-on-centos-6.md)
   * [Bookmarks](docker_bookmarks.md)
