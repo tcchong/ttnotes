@@ -48,12 +48,11 @@ $ mongod --fork --logpath <LOG_PATH> --logappend --dbpath <DB_PATH>
 $ mongorestore -d <DB_NAME> <LOCAL_DIR>
 ```
 
-
-
 ### Reference
 
 * [https://docs.mongodb.com/v2.6/tutorial/install-mongodb-on-os-x/](https://docs.mongodb.com/v2.6/tutorial/install-mongodb-on-os-x/)
 * [https://engineering.intercom.io/scaling-mongodb-to-1-million-connections-and-beyond/](#)
-
+* https://scalegrid.io/blog/how-to-find-unused-indexes-in-mongodb/
+* 
 
 
