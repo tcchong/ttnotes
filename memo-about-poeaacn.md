@@ -56,9 +56,9 @@ Layering - Three Layer
 
 | Domain layer | Data Source | Presentation | Remark |
 | :--- | :--- | :--- | :--- |
-| **Transaction Script** | **Row Data Gateway** <br/> **Table Data Gateway** |  | simplest <br/> **Optimistic Offline Lock** |
-| **Table Module** | **Record Sets** <br/> **Table Data Gateway** |  | |
-| **Domain Model** | **Active Record** - simple, classes close to the database <br/> **Table Data Gateway / Row Data Gateway** - decouple <br/> **Data Mapper** - independent, most complicated one to |  | high difficulty of learning |
+| **Transaction Script** | **Row Data Gateway** **Table Data Gateway** |  | simplest **Optimistic Offline Lock** |
+| **Table Module** | **Record Sets**  **Table Data Gateway** |  | |
+| **Domain Model** | **Active Record** - simple, classes close to the database  **Table Data Gateway / Row Data Gateway** - decouple  **Data Mapper** - independent, most complicated one to |  | high difficulty of learning |
 
 
 # Reference

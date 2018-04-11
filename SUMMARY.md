@@ -58,5 +58,5 @@
 
 * [Regular Expression](regular-expression.md)
 * [Memo](useful-tools-memo.md)
-* [Memo about PoEAA\(CN\)](memo-about-poeaacn.md)
+* [PoEAA](memo-about-poeaacn.md)
 
