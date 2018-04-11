@@ -54,9 +54,12 @@
 * [zsh](zshell.md)
 * [Sublime Text](sublime-text.md)
 
+## Pattern
+
+* [PoEAA](memo-about-poeaacn.md)
+
 ## Others
 
 * [Regular Expression](regular-expression.md)
 * [Memo](useful-tools-memo.md)
-* [PoEAA](memo-about-poeaacn.md)
 
