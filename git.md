@@ -225,9 +225,21 @@ $ git log --stat
 
 ## Bisect
 
-* https://git-scm.com/book/zh-tw/v1/Git-%E5%B7%A5%E5%85%B7-%E4%BD%BF%E7%94%A8-Git-%E5%81%9A-Debug
+* [https://git-scm.com/book/zh-tw/v1/Git-工具-使用-Git-做-Debug](https://git-scm.com/book/zh-tw/v1/Git-工具-使用-Git-做-Debug)
 
-## 
+
+
+## FAQ
+
+**Q. How to amend a change to specific commit**
+
+1. git stash save
+2. git rebase -i &lt;COMMIT\_SHA1&gt;~1
+3. change `pick` to `edit`
+4. git add &lt;FILE&gt;
+5. git commit --amend
+6. git rebase --continue
+7. git push -f
 
 ## Ref
 
