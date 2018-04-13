@@ -29,6 +29,7 @@ pessimistic lock
 * prevents anyone else from editing it
 
 * conflict prevention
+
 * reduces concurrency
 
 isolation level
@@ -43,12 +44,27 @@ Layering - Three Layer
 * Data Source
 * Domain
 
-| Domain layer           | Data Source                                                                                                                                                           | Presentation | Remark                               |
-| :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------- | :----------------------------------- |
-| **Transaction Script** | **Row Data Gateway** **Table Data Gateway**                                                                                                                           |              | simplest **Optimistic Offline Lock** |
-| **Table Module**       | **Record Sets** **Table Data Gateway**                                                                                                                                |              |                                      |
-| **Domain Model**       | **Active Record** - simple, classes close to the database **Table Data Gateway / Row Data Gateway** - decouple **Data Mapper** - independent, most complicated one to |              | high difficulty of learning          |
+| Domain layer | Data Source | Presentation | Remark |
+| :--- | :--- | :--- | :--- |
+| **Transaction Script** | **Row Data Gateway** **Table Data Gateway** |  | simplest **Optimistic Offline Lock** |
+| **Table Module** | **Record Sets** **Table Data Gateway** |  |  |
+| **Domain Model** | **Active Record** - simple, classes close to the database **Table Data Gateway / Row Data Gateway** - decouple **Data Mapper** - independent, most complicated one to |  | high difficulty of learning |
+
+
+
+Business logic
+
+Application logic
+
+
+
+Multi data mapper classes -&gt; Metadata Mapping
+
+If the domain model is simple, use **Active Record**
 
 # Reference
 
-* https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420
+* [https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420](https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420)
+
+
+
