@@ -1,4 +1,4 @@
 # Introduction
 
-This is a book about javascript, unix, nosql, docker, git.
+Note-taking that include the topics of back-end, javascript, unix, books reading.
 
