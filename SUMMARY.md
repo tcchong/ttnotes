@@ -54,9 +54,9 @@
 * [zsh](zshell.md)
 * [Sublime Text](sublime-text.md)
 
-## Pattern
+## Notes from Books
 
-* [PoEAA](memo-about-poeaacn.md)
+* [PoEAA\(WIP\)](memo-about-poeaacn.md)
 
 ## Others
 
