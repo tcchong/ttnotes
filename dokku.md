@@ -15,11 +15,9 @@ web: python3 -m server
 ssl
 
 ```
-$ dokku plugins:install 
+$ dokku plugins:install letsencrypt
 $ dokku letsencrypt my-web-app
 ```
-
-
 
 **multiple buildpacks**
 
