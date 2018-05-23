@@ -1,7 +1,5 @@
 # dokku
 
-
-
 **multiple buildpacks**
 
 ```
@@ -15,8 +13,6 @@ https://github.com/heroku/heroku-buildpack-python.git#v134
 web: npm start
 cron: python3 -m cronjob
 ```
-
-
 
 **subdirectory**
 
@@ -36,9 +32,7 @@ Procfile
 web: npm start --perfix server
 ```
 
-
-
-run cron tasks
+**run cron tasks**
 
 ```
 dokku ps:scale my-web-app cron=1
