@@ -1,6 +1,6 @@
 # dokku
 
-simple web app
+**simple web app**
 
 ```
 $ dokku create:apps my-web-app
