@@ -19,6 +19,26 @@ $ dokku plugins:install letsencrypt
 $ dokku letsencrypt my-web-app
 ```
 
+**backing services**
+
+install the plugin
+
+```
+$ dokku plugin:install https://github.com/dokku/dokku-mongo.git
+```
+
+create service
+
+```
+$ dokku mongo:create mongodb
+```
+
+linking service
+
+```
+$ dokku mongo:link mongodb my-web-app
+```
+
 **multiple buildpacks**
 
 ```
