@@ -15,8 +15,16 @@ web: python3 -m server
 ssl
 
 ```
-$ dokku plugins:install letsencrypt
+$ dokku plugins:install https://github.com/dokku/dokku-letsencrypt.git
+$ dokku config:set --no-restart my-web-app DOKKU_LETSENCRYPT_EMAIL=your@email.com
 $ dokku letsencrypt my-web-app
+```
+
+deploy from local machine
+
+```
+$ git remote add dokku dokku@domain.com:my-web-app
+$ git push dokku master
 ```
 
 **backing services**
