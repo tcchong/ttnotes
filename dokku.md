@@ -1,5 +1,26 @@
 # dokku
 
+simple web app
+
+```
+$ dokku create:apps my-web-app
+```
+
+Procfile
+
+```
+web: python3 -m server
+```
+
+ssl
+
+```
+$ dokku plugins:install 
+$ dokku letsencrypt my-web-app
+```
+
+
+
 **multiple buildpacks**
 
 ```
@@ -28,15 +49,15 @@ cron: python3 -m cronjob
 ```
 
 ```
-Procfile
+# Procfile
 web: npm start --perfix server
 ```
 
 **run cron tasks**
 
 ```
-dokku ps:scale my-web-app cron=1
-dokku enter my-web-app cron <COMMAND> # dokku enter my-web-app cron python3 -m cronjob
+$ dokku ps:scale my-web-app cron=1
+$ dokku enter my-web-app cron <COMMAND> # $ dokku enter my-web-app cron python3 -m cronjob
 ```
 
 
