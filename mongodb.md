@@ -31,15 +31,14 @@ v3.0
 
 ## Installation on Mac
 
+Install manually
+
 ```
 # Download the binaries
-$ curl -O http://downloads.mongodb.org/osx/mongodb-osx-x86_64-2.6.12.tgz
-# OR install with brew
-$ brew update
-$ brew install mongodb
+$ curl -O http://downloads.mongodb.org/osx/mongodb-osx-x86_64-<VERSION>.tgz
 
 # Extract
-$ tar -zxvf mongodb-osx-x86_64-2.6.12.tgz
+$ tar -zxvf mongodb-osx-x86_64-<VERSION>.tgz
 
 # Add to shell rc file
 export PATH=<MONGODB_DIR>/bin:$PATH
@@ -49,6 +48,13 @@ $ mongod --fork --logpath <LOG_PATH> --logappend --dbpath <DB_PATH>
 
 # Restore DB to localhost
 $ mongorestore -d <DB_NAME> <LOCAL_DIR>
+```
+
+Install with Homebrew
+
+```
+$ brew update
+$ brew install mongodb
 ```
 
 ### Reference
