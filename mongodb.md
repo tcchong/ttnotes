@@ -52,7 +52,10 @@ $ mongorestore -d <DB_NAME> <LOCAL_DIR>
 
 * [https://docs.mongodb.com/v2.6/tutorial/install-mongodb-on-os-x/](https://docs.mongodb.com/v2.6/tutorial/install-mongodb-on-os-x/)
 * [https://engineering.intercom.io/scaling-mongodb-to-1-million-connections-and-beyond/](#)
-* https://scalegrid.io/blog/how-to-find-unused-indexes-in-mongodb/
-* 
+* [https://scalegrid.io/blog/how-to-find-unused-indexes-in-mongodb/](https://scalegrid.io/blog/how-to-find-unused-indexes-in-mongodb/)
+* Indexing and performance tuning
+  * [https://www.slideshare.net/mongodb/indexing-and-performance-tuning](https://www.slideshare.net/mongodb/indexing-and-performance-tuning)
+  * 
+
 
 
