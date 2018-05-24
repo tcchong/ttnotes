@@ -34,6 +34,9 @@ v3.0
 ```
 # Download the binaries
 $ curl -O http://downloads.mongodb.org/osx/mongodb-osx-x86_64-2.6.12.tgz
+# OR install with brew
+$ brew update
+$ brew install mongodb
 
 # Extract
 $ tar -zxvf mongodb-osx-x86_64-2.6.12.tgz
