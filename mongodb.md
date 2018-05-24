@@ -55,7 +55,6 @@ $ mongorestore -d <DB_NAME> <LOCAL_DIR>
 * [https://scalegrid.io/blog/how-to-find-unused-indexes-in-mongodb/](https://scalegrid.io/blog/how-to-find-unused-indexes-in-mongodb/)
 * Indexing and performance tuning
   * [https://www.slideshare.net/mongodb/indexing-and-performance-tuning](https://www.slideshare.net/mongodb/indexing-and-performance-tuning)
-  * 
 
 
 
