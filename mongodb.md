@@ -29,6 +29,15 @@ v3.0
 * choose a good shard key
 * increased complexity in infrastructure and maintenance for the deployment
 
+## Commands
+
+```
+# Get DB indexes size in MB
+> db.stats(1024*1024)
+```
+
+
+
 ## Installation on Mac
 
 Install manually
