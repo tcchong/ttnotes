@@ -227,7 +227,14 @@ $ git log --stat
 
 * [https://git-scm.com/book/zh-tw/v1/Git-工具-使用-Git-做-Debug](https://git-scm.com/book/zh-tw/v1/Git-工具-使用-Git-做-Debug)
 
+## Fetch
 
+checking out pull request locally
+
+```
+$ git fetch origin pull/<PR_ID>/head:<BRANCH_NAME>
+$ git checkout <BRANCH_NAME>
+```
 
 ## FAQ
 
